@@ -2,7 +2,7 @@
 	"name": "window",
 	"version": "1.0.0",
 	"private": true,
-	"homepage": "https://skaretskiy.uk/",
+	"homepage": "https://howfastgot.github.io/portfolioHub",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
