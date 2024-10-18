@@ -1,0 +1,293 @@
+{
+	"projects": {
+		"3": {
+			"en": {
+				"title": "CURRENCY RATIO CALCULATOR",
+				"description": "<p data-i18n='works_project-currency-list'>Online converter of currencies with the UAH base:</p><ul><li><abbr title='United States dollar'>USD</abbr></li><li><abbr title='European Monetary Unit'>EURO</abbr></li><li><abbr title='Bitcoin currency code'>BTC</abbr></li></ul><p data-i18n='works_functionalities'>Was developed the next functionalities:</p><ul><li data-i18n='works_calculation'>Calculation of currency ratio;</li><li data-i18n='works_target'>Reverse/change target currency;</li><li data-i18n='works_range'>Change API currency value in the 10% range;</li><li data-i18n='works_reload'>Reload currencies API;</li><li data-i18n='works_loop'>Preventing the loop requests;</li></ul>",
+				"technologies": "<span>ReactJS</span> <span>Redux</span> <span>TypeScript</span> <span>Matetial UI</span>",
+				"codeLink": "https://github.com/HowFastGot/currencyExchanger",
+				"liveDemoLink": "https://currency-exchanger-psi.vercel.app/",
+				"imgURL": "../img/main/projects/currency-ratio.jpeg"
+			},
+			"ua": {
+				"title": "КАЛЬКУЛЯТОР ВАЛЮТ",
+				"description": "<p data-i18n='works_project-currency-list'>Конвертація валют по відношенню до UAH:</p><ul><li><abbr title='United States dollar'>USD</abbr></li><li><abbr title='European Monetary Unit'>EURO</abbr></li><li><abbr title='Bitcoin currency code'>BTC</abbr></li></ul><p data-i18n='works_functionalities'>Була розроблена наступна функціональність:</p><ul><li data-i18n='works_calculation'>Розрахунок співвідношення валют;</li><li data-i18n='works_target'>Зміна відношення між обраними валютами</li>li data-i18n='works_range'>Зміна отриманих валютних API даних в межах 10%;</li><li data-i18n='works_reload'>Оновлення API даних;</li><li data-i18n='works_loop'>Запобігання відправки більше ніж 5 моментальних запитів;</li></ul>",
+				"technologies": "<span>ReactJS</span> <span>Redux</span> <span>TypeScript</span> <span>Matetial UI</span>",
+				"codeLink": "https://github.com/HowFastGot/currencyExchanger",
+				"liveDemoLink": "https://currency-exchanger-psi.vercel.app/",
+				"imgURL": "../img/main/projects/currency-ratio.jpeg"
+			},
+			"ru": {
+				"title": "КАЛЬКУЛЯТОР ВАЛЮТ",
+				"description": "<p data-i18n='works_project-currency-list'>Конвертация соотношения валют к базовой UAH:</p><ul><li><abbr title='United States dollar'>USD</abbr></li><li><abbr title='European Monetary Unit'>EURO</abbr></li><li><abbr title='Bitcoin currency code'>BTC</abbr></li></ul><p data-i18n='works_functionalities'>Была разработана следующая функциональность:</p><ul><li data-i18n='works_calculation'>Рассчет соотношения валют;</li><li data-i18n='works_target'>Изменение позиций стравниваемых валют;</li><li data-i18n='works_range'>Изменение полученых валютных API данных в пределах 10%;</li><li data-i18n='works_reload'>Обновление API данных;</li><li data-i18n='works_loop'>Предотвращение отправки более 5 моментальных запросов;</li></ul>",
+				"technologies": "<span>ReactJS</span> <span>Redux</span> <span>TypeScript</span> <span>Matetial UI</span>",
+				"codeLink": "https://github.com/HowFastGot/currencyExchanger",
+				"liveDemoLink": "https://currency-exchanger-psi.vercel.app/",
+				"imgURL": "../img/main/projects/currency-ratio.jpeg"
+			}
+		},
+		"4": {
+			"en": {
+				"title": "TODO APP",
+				"description": "<p data-i18n='works_project-todo'>This todo application was developer as a technical task. Their review was like</p><ul><li>The project is well-structured and organized</li> <li>The candidate used a variety of React hooks, showing off some skills or knowledge</li> <li>Good enough use of sass, semantic layout and TypeScript</li> <li>All specified task requirements have been met</li> </ul>",
+				"technologies": "<span>ReactJS</span> <span>TypeScript</span> <span>Bootstrap</span> <span>React Hook Form</span>",
+
+				"codeLink": "https://github.com/HowFastGot/todo",
+				"liveDemoLink": "https://todo-ten-pi-17.vercel.app/",
+				"imgURL": "../img/main/projects/todo.png"
+			},
+			"ua": {
+				"title": "TODO Записник",
+				"description": "<p data-i18n='works_project-todo'>Цей додаток для задач був створений як технічне завдання. Його огляд був наступним:</p><ul><li>Проект добре структурований та організований</li> <li>Кандидат використовував різноманітні React хуки, демонструючи деякі вміння та знання</li> <li>Достатньо гарне використання sass, семантичного макету та TypeScript</li> <li>Всі вказані вимоги завдання були виконані</li> </ul>",
+				"technologies": "<span>ReactJS</span> <span>TypeScript</span> <span>Bootstrap</span> <span>React Hook Form</span>",
+
+				"codeLink": "https://github.com/HowFastGot/todo",
+				"liveDemoLink": "https://todo-ten-pi-17.vercel.app/",
+				"imgURL": "../img/main/projects/todo.png"
+			},
+			"ru": {
+				"title": "TODO Планер",
+				"description": "<p data-i18n='works_project-todo'>Это приложение для задач было разработано как техническое задание. Его обзор был следующим:</p><ul><li>Проект хорошо структурирован и организован</li> <li>Кандидат использовал разнообразные хуки React, продемонстрировав некоторые навыки или знания</li> <li>Достаточно хорошее использование sass, семантического макета и TypeScript</li> <li>Все указанные требования к задаче были выполнены</li> </ul>",
+				"technologies": "<span>ReactJS</span> <span>TypeScript</span> <span>Bootstrap</span> <span>React Hook Form</span>",
+
+				"codeLink": "https://github.com/HowFastGot/todo",
+				"liveDemoLink": "https://todo-ten-pi-17.vercel.app/",
+				"imgURL": "../img/main/projects/todo.png"
+			}
+		},
+		"5": {
+			"en": {
+				"title": "VIN DECODER",
+				"description": "The website was designed for decoding car VIN numbers, saving the history of decoded numbers, and has 3 pages to describe each characteristic of the car.",
+				"technologies": "<span>React Router</span> <span>SCSS</span> <span>TypeScript</span> <span>ReactJS</span> <span>Redux</span>",
+				"codeLink": "https://github.com/HowFastGot/Vin_Numbers_Decoder",
+				"liveDemoLink": "#",
+				"imgURL": "../img/main/projects/vin_decoder.jpg"
+			},
+			"ua": {
+				"title": "VIN ДЕКОДЕР",
+				"description": "Веб-сайт розроблений для розшифровки VIN-номерів автомобіля, збереження історії розкодованих номерів і має 3 сторінки для опису кожної характеристики автомобіля.",
+				"technologies": "<span>React Router</span> <span>SCSS</span> <span>TypeScript</span> <span>ReactJS</span> <span>Redux</span>",
+				"codeLink": "https://github.com/HowFastGot/Vin_Numbers_Decoder",
+				"liveDemoLink": "#",
+				"imgURL": "../img/main/projects/vin_decoder.jpg"
+			},
+			"ru": {
+				"title": "VIN ДЕКОДЕР",
+				"description": "Веб-сайт разработан для расшифровки VIN-номеров автомобиля, сохранения истории раскодированных номеров и имеет 3 страницы для описания каждой характеристики автомобиля.",
+				"technologies": "<span>React Router</span> <span>SCSS</span> <span>TypeScript</span> <span>ReactJS</span> <span>Redux</span>",
+				"codeLink": "https://github.com/HowFastGot/Vin_Numbers_Decoder",
+				"liveDemoLink": "#",
+				"imgURL": "../img/main/projects/vin_decoder.jpg"
+			}
+		},
+		"6": {
+			"en": {
+				"title": "CV website of a target expert",
+				"description": "The website was created as a CV of target expert Daria Vovk. The website presents a list of services, portfolio and experience of a specialist.</br> Via this website we can contact the expert, follow to her social media, discover her achievements and so on.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span>",
+				"codeLink": "https://github.com/HowFastGot/portfolio-target",
+				"liveDemoLink": "https://www.vovk-digital.com",
+				"imgURL": "../img/main/projects/targetolog.jpg"
+			},
+			"ua": {
+				"title": "CV-портфоліо таргетолога",
+				"description": "Веб-сайт створено як CV таргетолога Дарії Вовк. На сайті представлений перелік послуг, портфоліо та досвід спеціаліста.</br> За допомогою цього веб-сайту ми можемо зв’язатися з експертом, стежити за її новинами в соціальних мережах, дізнатися про її досягнення тощо.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span>",
+				"codeLink": "https://github.com/HowFastGot/portfolio-target",
+				"liveDemoLink": "https://www.vovk-digital.com",
+				"imgURL": "../img/main/projects/targetolog.jpg"
+			},
+			"ru": {
+				"title": "CV-портфолио таргетолога",
+				"description": "Веб-сайт создан як CV таргетолога Дарии Вовк. На сайте представлен перелік по, портфолио и досвід спеціаліста.</br> Через этот веб-сайт мы можем связаться с экспертом, подписаться на ее социальные сети, узнать о ее достижениях и так далее.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span>",
+				"codeLink": "https://github.com/HowFastGot/portfolio-target",
+				"liveDemoLink": "https://www.vovk-digital.com",
+				"imgURL": "../img/main/projects/targetolog.jpg"
+			}
+		},
+		"7": {
+			"en": {
+				"title": "NFT Dashboard",
+				"description": "This website is a convenient and informative crypto dashboard designed for analyzing cryptocurrency data. Here, users can gain a comprehensive overview of the market situation, explore up-to-date charts and statistics, as well as identify major trends and changes.",
+				"technologies": "<span>HTML5</span> <span>SCSS</span> <span>JavaScript</span>",
+				"codeLink": "https://github.com/HowFastGot/crypto-dashboard",
+				"liveDemoLink": "https://w7msy2-3000.csb.app/",
+				"imgURL": "../img/main/projects/crypto-dashboard.png"
+			},
+			"ua": {
+				"title": "NFT-Панель",
+				"description": "Цей веб-сайт є зручною та інформативною крипто-панеллю, призначеною для аналізу даних про криптовалюти. Тут користувачі можуть отримати всебічний огляд ринкової ситуації, досліджувати актуальні графіки та статистику, а також виявляти основні тенденції та зміни.",
+				"technologies": "<span>HTML5</span> <span>SCSS</span> <span>JavaScript</span>",
+				"codeLink": "https://github.com/HowFastGot/crypto-dashboard",
+				"liveDemoLink": "https://w7msy2-3000.csb.app/",
+				"imgURL": "../img/main/projects/crypto-dashboard.png"
+			},
+			"ru": {
+				"title": "NFT-Панель",
+				"description": "Этот веб-сайт представляет собой удобную и информативную крипто-панель, предназначенную для анализа данных о криптовалютах. Здесь пользователи могут получить всесторонний обзор рыночной ситуации, ознакомиться с актуальными графиками и статистикой, а также выявить основные тренды и изменения.",
+				"technologies": "<span>HTML5</span> <span>SCSS</span> <span>JavaScript</span>",
+				"codeLink": "https://github.com/HowFastGot/crypto-dashboard",
+				"liveDemoLink": "https://w7msy2-3000.csb.app/",
+				"imgURL": "../img/main/projects/crypto-dashboard.png"
+			}
+		},
+		"8": {
+			"en": {
+				"title": "Cafe Pizza",
+				"description": "The full functionality for online order placement by customers has been developed. On the main page, it is possible to filter pizzas by type, choose various sizes, and select the type of crust. A shopping cart has been implemented, allowing customers to modify the quantity of added items.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span> <span>Redux</span> <span>React Router</span> <span>Jest</span>",
+				"codeLink": "https://github.com/HowFastGot/Pizza-project",
+				"liveDemoLink": "https://r4fj2r-3000.csb.app/",
+				"imgURL": "../img/main/projects/pizza.png"
+			},
+			"ua": {
+				"title": "Cafe Pizza",
+				"description": "Був створенний повноцінний функціонал для оформлення онлайн замовлень клієнтами. На головній сторінці можливо відфільтрувати піци за типом, обрати різні розміри та тип тіста. Реалізована корзина товару в якій можливо змінювати кількість доданого товару.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span> <span>Redux</span> <span>React Router</span> <span>Jest</span>",
+				"codeLink": "https://github.com/HowFastGot/Pizza-project",
+				"liveDemoLink": "https://r4fj2r-3000.csb.app/",
+				"imgURL": "../img/main/projects/pizza.png"
+			},
+			"ru": {
+				"title": "Cafe Pizza",
+				"description": "Была разработана полноценная функциональность для оформления онлайн заказов клиентами. На главной странице возможно отфильтровать пиццы по типу, выбрать различные размеры и тип теста. Реализована корзина товара, в которой можно изменять количество добавленного товара.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span> <span>Redux</span> <span>React Router</span> <span>Jest</span>",
+				"codeLink": "https://github.com/HowFastGot/Pizza-project",
+				"liveDemoLink": "https://r4fj2r-3000.csb.app/",
+				"imgURL": "../img/main/projects/pizza.png"
+			}
+		},
+		"9": {
+			"en": {
+				"title": "Pictures Shop",
+				"description": "The website serves as an online webstore for a pictures collection. It provides a platform where visitors can browse and purchase a wide range of high-quality pictures. The website features a comprehensive gallery showcasing the collection, allowing users to explore and discover various categories and themes.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>SwiperJS</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
+				"liveDemoLink": "https://zrw839-3000.csb.app/",
+				"imgURL": "../img/main/projects/Pictures_store.png"
+			},
+			"ua": {
+				"title": "Онлайн магазин картин",
+				"description": "Веб-сайт слугує онлайн-магазином для колекції фотографій. Він надає платформу, де відвідувачі можуть переглядати та купувати широкий вибір високоякісних зображень. Веб-сайт містить повну галерею, що демонструє колекцію, що дозволяє користувачам досліджувати та відкривати для себе різні категорії та теми.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>SwiperJS</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
+				"liveDemoLink": "https://zrw839-3000.csb.app/",
+				"imgURL": "../img/main/projects/Pictures_store.png"
+			},
+			"ru": {
+				"title": "Онлайн магазин картин",
+				"description": "Веб-сайт служит интернет-магазином для коллекции изображений. Он предоставляет платформу, на которой посетители могут просматривать и покупать широкий спектр высококачественных изображений. На веб-сайте представлена обширная галерея, демонстрирующая коллекцию, позволяющая пользователям исследовать и находить различные категории и темы.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>SwiperJS</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
+				"liveDemoLink": "https://zrw839-3000.csb.app/",
+				"imgURL": "../img/main/projects/Pictures_store.png"
+			}
+		},
+		"10": {
+			"en": {
+				"title": "Wise Window Shop",
+				"description": "Seamless and convenient platform for all your window needs. A customer can easily explore and discover a wide range of windows tailored to your specific requirements. With this website, customers can effortlessly find the perfect windows to enhance the beauty, functionality, and energy efficiency of your space.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>JQuery</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Irvas_service",
+				"liveDemoLink": "https://h6l6g3-3000.csb.app/",
+				"imgURL": "../img/main/projects/Window-shop.png"
+			},
+			"ua": {
+				"title": "Онлайн магазин металопластикових вікон",
+				"description": "Безшовна та зручна платформа для всіх ваших віконних потреб. Клієнт може легко досліджувати та знаходити широкий асортимент вікон, адаптованих до ваших конкретних вимог. За допомогою цього веб-сайту клієнти можуть легко знайти ідеальні вікна, щоб підвищити красу, функціональність та енергоефективність вашого простору.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>JQuery</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Irvas_service",
+				"liveDemoLink": "https://h6l6g3-3000.csb.app/",
+				"imgURL": "../img/main/projects/Window-shop.png"
+			},
+			"ru": {
+				"title": "Онлайн магазин  металопластиковых окон",
+				"description": "Бесшовная и удобная платформа для всех ваших оконных потребностей. Клиент может легко изучить и открыть для себя широкий ассортимент окон, адаптированных к вашим конкретным требованиям. С помощью этого веб-сайта клиенты могут легко найти идеальные окна, чтобы улучшить красоту, функциональность и энергоэффективность вашего помещения.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>JQuery</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
+				"liveDemoLink": "https://h6l6g3-3000.csb.app/",
+				"imgURL": "../img/main/projects/Window-shop.png"
+			}
+		},
+		"11": {
+			"en": {
+				"title": "Sport equipment shop",
+				"description": "Four pages of an online sports equipment store have been developed: the home page, product page, shopping cart, and product catalog. The website incorporates all the functionality of an online store and includes interactive elements, sliders, and more.",
+				"technologies": "<span>SCSS</span> <span>HTML</span> <span>JavaScript</span> <span>SwiperJS</span>",
+				"codeLink": "https://github.com/HowFastGot/eCommerce_website",
+				"liveDemoLink": "https://98ngzs-3000.csb.app/",
+				"imgURL": "../img/main/projects/sport-equipment.png"
+			},
+			"ua": {
+				"title": "Онлайн магазин спортивного інвентаря",
+				"description": "Було розроблено 4 сторінки онлайн-магазину спортивного інвентаря (головна, сторінка товару, кошик, каталог товарів). На сайті реалізована вся функціональність онлайн-магазину, використовувалися інтерактивні елементи, слайдери і т.д.",
+				"technologies": "<span>SCSS</span> <span>HTML</span>",
+				"codeLink": "https://github.com/HowFastGot/eCommerce_website",
+				"liveDemoLink": "https://98ngzs-3000.csb.app/",
+				"imgURL": "../img/main/projects/sport-equipment.png"
+			},
+			"ru": {
+				"title": "Онлайн магазин спортивного инвентаря",
+				"description": "Было разработано 4 страницы онлайн-магазина спортивного инвентаря (главная, страница товара, корзина, каталог товаров). На сайте реализована вся функциональность онлайн-магазина, использовались интерактивные элементы, слайдеры и т.п.",
+				"technologies": "<span>SCSS</span> <span>HTML</span>",
+				"codeLink": "https://github.com/HowFastGot/eCommerce_website",
+				"liveDemoLink": "https://98ngzs-3000.csb.app/",
+				"imgURL": "../img/main/projects/sport-equipment.png"
+			}
+		},
+		"12": {
+			"en": {
+				"title": "Knives Shop",
+				"description": "During the development process, I encountered several challenges that tested my skills and determination. From designing an intuitive user interface to ensuring seamless navigation, I strived to create a visually appealing and user-friendly website. Optimizing the website for different devices and screen sizes was another hurdle that required meticulous attention to detail.",
+				"technologies": "<span>SCSS</span> <span>HTML</span>",
+				"codeLink": "https://github.com/HowFastGot/zlatmax_ecom_shop",
+				"liveDemoLink": "https://23gf59-3000.csb.app/",
+				"imgURL": "../img/main/projects/zlatmax.png"
+			},
+			"ua": {
+				"title": "Онлайн магазин ножів",
+				"description": "У процесі розробки я зіткнувся з кількома труднощами, які перевірили мої навички та рішучість. Від розробки інтуїтивно зрозумілого інтерфейсу користувача до забезпечення безперебійної навігації я прагнув створити візуально привабливий і зручний веб-сайт. Оптимізація веб-сайту для різних пристроїв і розмірів екрана була ще однією перешкодою, яка потребувала прискіпливої уваги до деталей.",
+				"technologies": "<span>SCSS</span> <span>HTML</span>",
+				"codeLink": "https://github.com/HowFastGot/zlatmax_ecom_shop",
+				"liveDemoLink": "https://t44y3g-3000.csb.app/",
+				"imgURL": "../img/main/projects/zlatmax.png"
+			},
+			"ru": {
+				"title": "Онлайн магазин ножей",
+				"description": "В процессе разработки я столкнулся с рядом проблем, которые проверили мои навыки и решимость. От разработки интуитивно понятного пользовательского интерфейса до обеспечения плавной навигации я стремился создать визуально привлекательный и удобный веб-сайт. Оптимизация веб-сайта для различных устройств и размеров экрана была еще одним препятствием, требующим тщательного внимания к деталям.",
+				"technologies": "<span>SCSS</span> <span>HTML</span>",
+				"codeLink": "https://github.com/HowFastGot/zlatmax_ecom_shop",
+				"liveDemoLink": "https://t44y3g-3000.csb.app/",
+				"imgURL": "../img/main/projects/zlatmax.png"
+			}
+		},
+		"13": {
+			"en": {
+				"title": "IT School",
+				"description": "The website was created as a comprehensive platform for the IT School. It serves as a hub where visitors can access a wealth of information about the school's programs and offerings. The website features detailed descriptions of the courses available, along with information about the instructors and their expertise. Visitors can explore the curriculum, prerequisites, and outcomes of each course to make informed decisions about their learning journey.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>GULP</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Loan_slides",
+				"liveDemoLink": "https://pd37k7-3000.csb.app/",
+				"imgURL": "../img/main/projects/Loadn-slide-site.png"
+			},
+			"ua": {
+				"title": "IT Школа",
+				"description": "Сайт створено як комплексну платформу для ІТ-школи. Він служить центром, де відвідувачі можуть отримати доступ до величезної кількості інформації про програми та пропозиції школи. На веб-сайті є детальні описи доступних курсів, а також інформація про викладачів та їхній досвід. Відвідувачі можуть ознайомитися з навчальною програмою, попередніми умовами та результатами кожного курсу, щоб прийняти обґрунтовані рішення щодо свого навчального шляху.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>GULP</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Loan_slides",
+				"liveDemoLink": "https://pd37k7-3000.csb.app/",
+				"imgURL": "../img/main/projects/Loadn-slide-site.png"
+			},
+			"ru": {
+				"title": "IT Школа",
+				"description": "Сайт создавался как комплексная платформа для IT-школы. Он служит центром, где посетители могут получить доступ к большому количеству информации о школьных программах и предложениях. На веб-сайте представлены подробные описания доступных курсов, а также информация об инструкторах и их опыте. Посетители могут изучить учебную программу, предварительные условия и результаты каждого курса, чтобы принять обоснованное решение о своем пути обучения.",
+				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>GULP</span>",
+				"codeLink": "https://github.com/HowFastGot/website_Loan_slides",
+				"liveDemoLink": "https://pd37k7-3000.csb.app/",
+				"imgURL": "../img/main/projects/Loadn-slide-site.png"
+			}
+		}
+	}
+}

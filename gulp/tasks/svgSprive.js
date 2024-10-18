@@ -4,7 +4,7 @@ import svgSprite from 'gulp-svg-sprite';
 
 export const svgSprive = () => {
 	return app.gulp
-		.src(`${app.path.src.svgicons}`, {})
+		.src(`${app.path.src.svg}`, {})
 		.pipe(
 			app.plugins.plumber(
 				app.plugins.notify.onError({
