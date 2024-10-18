@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/_head.html', { "title": "Skaretskiy Portfolio" })
+
+	<body>
+		@@include('html/_header.html', {})
+		<main class="page _container">
+			@@include('html/_rewards.html', {})
+			<!-- Experience -->
+			@@include('html/_experience.html', {})
+			<!-- Work -->
+			@@include('html/_work-section.html', {})
+			<!-- Certificates -->
+			@@include('html/_certificates.html', {})
+			<!-- Education -->
+			@@include('html/_education.html', {})
+			<!--Interview -->
+			@@include('html/_interview.html',{})
+		</main>
+		<!--Footer -->
+		@@include('html/_footer.html', {})
+		<!--buttonScroll -->
+		@@include('html/_buttonScroll.html',{})
+		<!--Tempalte -->
+		@@include('html/_projectTemplate.html', {})
+
+		<script src="js/app.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+	</body>
+</html>

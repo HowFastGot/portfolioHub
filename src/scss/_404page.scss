@@ -1,0 +1,105 @@
+.page {
+
+     &__error {
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          overflow: hidden;
+     }
+}
+
+.error-page {
+
+     &__section {
+          padding: 10px;
+     }
+
+     &__row {
+
+          @media (min-width: 1207px) {
+               display: flex;
+               gap: 175px;
+               align-items: center;
+               justify-content: center;
+          }
+
+          @media (max-width: 1207px) {
+               text-align: center;
+          }
+     }
+
+     &__img-block {
+          width: 326px;
+          height: 247px;
+          margin: 0 auto 20px;
+
+          img {
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+          }
+
+          @media (max-width: $md3) {
+               width: 100%;
+               height: 100%;
+          }
+     }
+
+     &__text-block {
+          position: relative;
+
+          a {
+               display: inline-block;
+               margin-top: 20px;
+               color: $WHITE;
+
+               &:hover {
+                    background: #18056c;
+               }
+          }
+
+          @media (min-width: 1207px) {
+               &::after {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    left: -67px;
+                    top: 0;
+
+                    width: 2px;
+                    height: 185.5px;
+                    transform: translateY(-10%);
+                    background-color: #999;
+
+               }
+
+          }
+     }
+
+     &__tille {
+          font-family: "lato900";
+          font-size: 28px;
+          line-height: 34px;
+
+          @media (max-width: 546px) {
+               font-size: 18px;
+               line-height: 29px;
+          }
+     }
+
+     &__subtitile {
+          font-size: 18px;
+          line-height: 28px;
+          color: rgba(0, 0, 0, 0.87);
+
+          @media (max-width: 546px) {
+               font-size: 12px;
+               line-height: 20px;
+          }
+     }
+
+
+}

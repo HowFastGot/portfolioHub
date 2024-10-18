@@ -1,0 +1,259 @@
+.page {
+	&__education {
+		margin: 60px 0;
+
+		@media (min-width: $md3) {
+			padding: 0px 10px;
+		}
+	}
+}
+.education-block {
+	&__title {
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'lato900';
+	}
+
+	&__row {
+		margin-top: 40px;
+
+		@media (min-width: $md3) {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: start;
+			gap: 10px;
+		}
+	}
+
+	&__img-block {
+		flex: 1 0 40%;
+		min-width: 150px;
+		text-align: center;
+
+		@media (max-width: $md3) {
+			display: none;
+		}
+	}
+
+	&__text-block {
+		@media (min-width: $md3) {
+			flex: 1 1 60%;
+		}
+	}
+}
+
+//=====================================================================
+
+.img-block {
+	&__sticky-div {
+		position: relative;
+
+		height: 1810px;
+
+		@media (max-width: 1072px) {
+			height: 2310px;
+		}
+
+		@media (max-width: $md2) {
+			height: 2550px;
+		}
+
+		@media (max-width: 570px) {
+			height: 3200px;
+		}
+	}
+
+	&__content {
+		display: inline-block;
+		width: 100%;
+		max-width: 500px;
+		position: sticky;
+		top: 120px;
+
+		@media (max-width: 445px) {
+			top: 50px;
+		}
+	}
+
+	&__first-img {
+		width: 100%;
+		max-height: 200px;
+		object-fit: contain;
+	}
+}
+
+//===========================================================================
+
+.education-text {
+	&__tech-list {
+		padding: 10px 5px;
+		color: $WHITE;
+		background: $VIO-BLUE-GRAD;
+		border-radius: 15px 0 0 15px;
+
+		@media (max-width: $md3) {
+			padding: 10px 0px;
+		}
+	}
+
+	&__tech-item {
+		line-height: 1.4;
+
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__tech-title {
+		position: relative;
+		padding: 0 30px 10px 10px;
+		color: $GOLD;
+		font-size: 18px;
+		line-height: 1;
+		font-family: 'lato700';
+		font-weight: 700;
+		border-bottom: 2px solid $GOLD;
+
+		@media (max-width: $md3) {
+			&::after {
+				content: '';
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+
+				position: absolute;
+				right: 10px;
+				top: -5px;
+				background: url('../img/icons/education/arr-accordion.svg') center/cover no-repeat;
+			}
+		}
+
+		&.activeTrigger {
+			&::after {
+				transform: rotate(180deg);
+			}
+		}
+	}
+
+	&__resourse-list {
+		font-size: 12px;
+		margin-top: 20px;
+		padding: 0 10px;
+
+		a {
+			color: $BLACK;
+			font-family: 'lato900';
+			font-size: 14px;
+			text-decoration: underline;
+
+			@media (max-width: $md3) {
+				font-size: 16px;
+				font-weight: 900;
+			}
+		}
+	}
+
+	&__additional-info {
+		padding-left: 15px;
+		span:first-child {
+			padding-right: 10px;
+		}
+		&_description {
+			span:first-child {
+				padding: 0 10px 30px 0px;
+
+				@media (max-width: 871px) {
+					padding: 0;
+				}
+			}
+
+			b {
+				color: $GOLD;
+			}
+		}
+	}
+}
+
+.resourse-list {
+	&__information-title {
+		font-family: 'lato400italic';
+		font-weight: 700;
+	}
+	&__item {
+		padding: 10px;
+
+		h6 {
+			font-weight: 800;
+		}
+		span:first-child {
+			display: block;
+			float: left;
+			color: #999;
+		}
+
+		a {
+			display: inline-block;
+
+			&::before {
+				content: '';
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				margin-right: 5px;
+				background: url('../img/icons/education/share-arrow-wht.svg') center/cover no-repeat;
+			}
+		}
+	}
+
+	&__youtube {
+		color: red;
+		font-weight: 700;
+	}
+
+	@media (max-width: $md3) {
+		font-family: 'lato400';
+		font-weight: 400;
+		font-size: 18px;
+
+		&:not(.resourse-list.open-item) {
+			display: none;
+		}
+	}
+}
+
+//=======Dark Theme============================================================
+body.dark {
+	.education-text {
+		&__tech-list {
+			background: none;
+		}
+	}
+	.resourse-list {
+		&__item {
+			span:first-child {
+				color: $GOLD !important;
+			}
+
+			a {
+				color: $PurpleNav;
+				display: inline-block;
+			}
+		}
+	}
+
+	@media (max-width: 1006px) {
+		.education-block {
+			&__title {
+				background: $VIO-BLUE-GRAD;
+			}
+		}
+	}
+}
+
+//==Change animation====================================================
+.animate__animated.animate__slideInUp {
+	--animate-duration: 0.5s;
+}

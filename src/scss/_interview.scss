@@ -1,0 +1,62 @@
+.interview {
+	&__title {
+		visibility: hidden;
+
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-family: 'lato900';
+		font-size: 30px;
+		color: $BLACK;
+		text-align: center;
+		text-transform: uppercase;
+
+		transition: all 0.3s ease 0s;
+
+		&.animate__animated {
+			visibility: visible;
+		}
+	}
+
+	&__iframe-wrapper {
+		visibility: hidden;
+
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 498px;
+		min-height: 300px;
+		margin: 40px 0px;
+		transition: all 0.3s ease 0s;
+
+		&.animate__animated {
+			visibility: visible;
+		}
+		iframe {
+			height: 100%;
+			border-radius: 10px;
+		}
+
+		@media (max-width: $md2) {
+			height: 400px;
+		}
+
+		@media (max-width: $md3) {
+			height: 200px;
+		}
+	}
+}
+
+//===========Dark======================================
+
+body.dark {
+	.interview {
+		&__title {
+			color: $WHITE;
+
+			@media (max-width: 1006px) {
+				background: $VIO-BLUE-GRAD;
+			}
+		}
+	}
+}

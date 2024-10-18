@@ -1,0 +1,149 @@
+.footer {
+	padding: 20px 50px;
+	background: $VIO-BLUE-GRAD;
+	color: aliceblue;
+
+	._container {
+		overflow: visible;
+	}
+
+	&__copyright {
+		margin-top: 30px;
+		text-align: left;
+		white-space: nowrap;
+
+		span {
+			display: inline !important;
+		}
+
+		@media (max-width: 405px) {
+			position: absolute;
+			left: 50%;
+			bottom: -30px;
+			transform: translateX(-50%);
+		}
+	}
+
+	@media (min-width: $md1) {
+		padding: 25px 100px;
+	}
+
+	@media (max-width: 510px) {
+		padding: 10px;
+		padding-bottom: 50px;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+	}
+
+	&__contact-info {
+		margin-top: 50px;
+		text-align: center;
+
+		@media (max-width: $md1) {
+			margin-top: 50px;
+		}
+
+		@media (max-width: $md3) {
+			margin-top: 20px;
+		}
+	}
+
+	& a,
+	button {
+		color: aliceblue;
+	}
+}
+
+.contact-info {
+	&__name {
+		position: relative;
+		margin-top: 30px;
+		font-family: 'lato900';
+		color: $GOLD;
+		font-size: 40px;
+		line-height: calc(58 / 48);
+
+		&::before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			top: -100px;
+			left: 50%;
+			width: 100px;
+			height: 100px;
+			transform: translateX(-50%);
+			background: url('../img/icons/Footer/Name-Logi.svg') no-repeat center/cover;
+
+			@media (max-width: $md3) {
+				width: 50px;
+				height: 50px;
+				top: -50px;
+			}
+		}
+
+		@media (max-width: $md3) {
+			font-size: 22px;
+			line-height: calc(38 / 28);
+		}
+	}
+
+	&__ocupation {
+		font-weight: 400;
+		font-size: 22px;
+		line-height: calc(26 / 22);
+
+		@media (max-width: $md1) {
+			font-size: 14px;
+			line-height: calc(18 / 14);
+		}
+
+		@media (max-width: $md3) {
+			font-size: 9px;
+			line-height: calc(13 / 9);
+		}
+	}
+
+	.intro-cart__list-network {
+		justify-content: center;
+		margin: 15px 0;
+
+		@media (max-width: $md3) {
+			flex-wrap: wrap;
+			gap: 8px;
+
+			li {
+				flex: 0 1 30%;
+			}
+		}
+	}
+
+	nav:last-child {
+		margin-top: 10px;
+		@media (max-width: $md3) {
+			font-size: 10px;
+		}
+	}
+
+	&__number,
+	&__skype {
+		display: block;
+		margin-bottom: 8px;
+		line-height: 20px;
+		text-align: left;
+	}
+
+	span {
+		color: $GOLD;
+		margin-left: 20px;
+
+		@media (max-width: $md1) {
+			display: block;
+			text-align: left;
+			margin: 0;
+		}
+	}
+}

@@ -1,0 +1,233 @@
+//<Обнуление файлов / импорт переменных>====================================================================================================================================
+@import '_nullStyle';
+@import '_variables';
+@import '_fonts';
+//<Обнуление файлов / импорт переменных>====================================================================================================================================
+
+//-<Подключаем файлы стилей>==============================================================
+@import '_header';
+@import '_rewards';
+@import '_experience';
+@import '_work-section';
+@import '_certificates';
+@import '_footer';
+@import '_form';
+@import '_UI';
+@import '_404page';
+@import '_settings-popup';
+@import '_interview';
+@import '_education';
+@import '_scrollButton';
+//-</Подключаем файлы стилей>==============================================================
+
+//<Подключаем шрифты>=================================================================================================
+//--&display=swap - оптимизация латиницы
+//--&subset=cyrillic-ext - оптимизация кирилици
+//@import "fonts"; //ипорт локально
+//@import url() - импорт ссылкой
+//</Подключаем шрифты>=================================================================================================
+
+//-<Иконочные шрифты>-==============================================================
+//@import ""; //скомпилированный фал был добавлен в папку после скачивания и удаления лишего
+//-</Иконочные шрифты>-==============================================================
+
+//-<Обнуление общиих параметров>-===================================================
+html {
+	scroll-behavior: smooth;
+
+	&::-webkit-scrollbar {
+		width: 0.5em;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: $GOLD;
+		border-radius: 9999px;
+
+		&:hover {
+			background-color: #c29d62;
+		}
+	}
+}
+
+body {
+	height: min-content;
+	font-family: $font-family;
+	color: #000;
+	font-size: 14px;
+
+	&._lock {
+		overflow: hidden;
+	}
+
+	&.dark {
+		background-color: $BODY_BLACK;
+
+		.section-title {
+			color: $WHITE;
+		}
+
+		.tooltip {
+			@media (max-width: $md2) {
+				background-color: $PurpleNav_dark;
+				color: $WHITE !important;
+			}
+		}
+	}
+}
+
+//-<Обнуление общих параметров>-===================================================
+
+//<Wrapper и Ограничивающий контейнер>-========================================================================
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	width: 100%;
+}
+
+//---------------------------------------
+._container {
+	position: relative;
+	max-width: $maxWidthContainer + px;
+	margin: 0 auto;
+
+	@media (min-width: $md2) {
+		padding: 0 20px;
+	}
+
+	@media (max-width: $md3) {
+		overflow: hidden;
+	}
+}
+
+._container-header {
+	max-width: $maxWidthContainer + px;
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+//</Wrapper и Ограничивающий контейнер>========================================================================
+
+//-<Основная сетка>==================================================================
+.page {
+	.section-title {
+		font-family: 'lato900';
+		font-size: 30px;
+		color: $BLACK;
+		padding: 10px 20px;
+	}
+}
+
+.tooltip {
+	position: absolute;
+	right: -135px;
+	top: 50%;
+	transform: translateY(-50%);
+
+	height: 44px;
+	width: 119px;
+	padding: 10px 5px;
+
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer !important;
+
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff !important;
+
+	&::before {
+		content: '';
+		display: inline-block;
+
+		position: absolute;
+		left: -24px;
+		top: 50%;
+		transform: translateY(-50%);
+
+		width: 0;
+		height: 0;
+
+		border-style: solid;
+		border-width: 20.5px 0 20.5px 24px;
+		border-color: transparent;
+	}
+
+	@media (max-width: $md2) {
+		height: 37px;
+		width: 79px;
+		padding: 5px 0;
+		left: 0;
+		top: 53px;
+		font-size: 12px;
+		line-height: 2;
+		vertical-align: middle;
+		background: $PurpleNav;
+		border-radius: 0 0 5px 5px;
+		color: $BLUE !important;
+	}
+
+	@media (max-width: $md3) {
+		height: 20px;
+		font-size: 10px;
+		line-height: 1;
+		top: 45px;
+	}
+}
+
+.error-popup {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 999;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(41.51deg, #9c27b0 38.34%, #651fff 66.03%);
+	opacity: 0.97;
+
+	text-align: center;
+	line-height: 1.3;
+	padding: 100px 30px;
+	color: white;
+	white-space: wrap;
+	font-size: 30px;
+	font-weight: 900;
+	span {
+		display: block;
+		max-width: 500px;
+		margin: 0 auto;
+		color: red;
+		background-color: $BLACK;
+		padding: 10px 5px;
+		opacity: 0.5;
+
+		box-shadow: 0px 95px 5px -46px rgba(0, 0, 0, 0.9);
+		border-radius: 10px;
+	}
+	p {
+		font-size: 15px;
+	}
+
+	svg {
+		margin: 25px 0 10px 0;
+		width: 40% !important;
+		height: 50% !important;
+	}
+
+	@media (max-width: 330px) {
+		font-size: 20px;
+	}
+}
+//-<Основная сетка>==================================================================

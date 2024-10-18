@@ -1,0 +1,19 @@
+{
+	"eng-lg": {
+		"header_hi": "Hi,",
+		"header_name": "I am Yevhen,",
+		"header_field": "Front-End Developer",
+		"header_location": "Location - <span>Ukraine</span>, more than <b>2 years</b> of experience of working in an IT company. <br> Open minded, patient and delighted with what <wbr>I do!</wbr>",
+
+		"main-rewards_englishLevel": "B2 English",
+		"main-rewards_experience": "2 years <br> of experience",
+		"main-rewards_hoursOfLessons": "111 hours <br>educational lessons",
+		"main-rewards_totalProjects": "27+ projects",
+
+		"main-exp_workExperience": "WORK EXPERIENCE",
+		"main-exp_skills": "SKILL AND EXPERTISE",
+		"main-exp_dev-job": "<strong>Front-End Developer</strong> <p>as a Freelancer</p> <time>2022 - Present</time>",
+		"main-exp_sales-job": "<strong>Sales manager</strong> <p>at TrackEnsure Company</p> <time>2021 - Present</time>",
+		"main-exp_service-job": "<strong>Service manager</strong> <p>at Comfy Company</p> <time>2019 - 2021</time>"
+	}
+}

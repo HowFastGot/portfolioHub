@@ -1,0 +1,161 @@
+.page {
+	&__rewards {
+		position: relative;
+
+		@media (max-width: 574px) {
+			margin: 50px 0;
+		}
+	}
+}
+
+.rewards {
+	&__list {
+		display: flex;
+		gap: 10px 80px;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		text-align: center;
+		margin: 20px 10px;
+
+		@media (max-width: 1211px) {
+			gap: 10px 280px;
+		}
+
+		@media (max-width: $md2) {
+			gap: 10px 80px;
+		}
+
+		@media (max-width: $md3) {
+			gap: 10px 20px;
+		}
+	}
+
+	&__item {
+		position: relative;
+		flex: 0 1 140px;
+
+		@media (min-width: 410px) {
+			&:not(:nth-child(3))::before {
+				content: '';
+				display: inline-block;
+				height: 160px;
+				width: 160px;
+				z-index: -1;
+
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+
+				background: linear-gradient(141.51deg, rgb(156, 39, 176) -18.34%, rgb(101, 31, 255) 66.03%);
+				border-radius: 100%;
+
+				@media (max-width: 1211px) {
+					height: 130px;
+					width: 130px;
+					background: linear-gradient(141.51deg, rgb(156, 39, 176, 0.2) -18.34%, rgb(101, 31, 255) 66.03%);
+				}
+			}
+		}
+
+		&_own-photo {
+			@media (max-width: 1211px) {
+				flex: 0 1 100%;
+
+				figure {
+					margin: 0 auto;
+				}
+			}
+		}
+
+		p {
+			margin-top: 5px;
+			color: $GOLD;
+			font-size: 14px;
+			line-height: calc(17 / 14);
+		}
+
+		@media (max-width: 1211px) {
+			&:nth-child(-n + 2) {
+				top: 50px;
+			}
+
+			&:nth-last-child(-n + 2) {
+				bottom: 50px;
+			}
+
+			&:nth-child(2),
+			&:nth-child(5) {
+				right: -40px;
+			}
+
+			&:nth-child(1),
+			&:nth-child(4) {
+				left: -40px;
+			}
+		}
+
+		@media (max-width: $md2) {
+			&:nth-child(1),
+			&:nth-child(4) {
+				left: -100px;
+			}
+
+			&:nth-child(2),
+			&:nth-child(5) {
+				right: -100px;
+			}
+		}
+
+		@media (max-width: 574px) {
+			&:nth-child(-n + 2) {
+				top: -20px;
+			}
+
+			&:nth-last-child(-n + 2) {
+				bottom: -20px;
+			}
+
+			&:nth-child(2),
+			&:nth-child(5) {
+				right: -50px;
+			}
+
+			&:nth-child(1),
+			&:nth-child(4) {
+				left: -50px;
+			}
+		}
+
+		@media (max-width: 410px) {
+			&:nth-child(2),
+			&:nth-child(5) {
+				right: -10px;
+			}
+
+			&:nth-child(1),
+			&:nth-child(4) {
+				left: -10px;
+			}
+		}
+	}
+}
+
+.own-photo {
+	&__block {
+		position: relative;
+		width: 255px;
+		height: 344px;
+		box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+		background-color: transparent;
+		border-radius: 26px;
+		overflow: hidden;
+	}
+
+	&__img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}

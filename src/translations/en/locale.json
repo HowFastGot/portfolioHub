@@ -1,0 +1,107 @@
+{
+	"English": {
+		"header_hi": "Hi,",
+		"header_name": "I am Yevhen, <span>Frontend Developer</span>",
+		"header_location": "Location - <span>Ukraine</span>, more than <b>2 years</b> of experience of working in an IT company. <br> Open minded, patient and delighted with what <wbr>I do!</wbr>",
+
+		"main-rewards_englishLevel": "B2 English",
+		"main-rewards_experience": "2 years <br> of experience",
+		"main-rewards_hoursOfLessons": "111 hours <br>educational lessons",
+		"main-rewards_totalProjects": "27+ projects",
+
+		"main-exp_workExperience": "WORK EXPERIENCE",
+		"main-exp_skills": "SKILL AND EXPERTISE",
+		"main-exp_preframer-job": "<strong>Frontend Developer</strong> <p>Preframer Inc</p> <time>June 2023 - Present</time>",
+		"main-exp_dev-job": "<strong>Frontend Developer</strong> <p>as a Freelancer</p> <time>Nov 2021 - Aug 2023</time>",
+		"main-exp_sales-job": "<strong>Sales manager</strong> <p>at TrackEnsure Company</p> <time>Aug 2021 - Aug 2023</time>",
+		"main-exp_service-job": "<strong>Service manager</strong> <p>at Comfy Company</p> <time>2019 - 2021</time>",
+
+		"works-title": "Portfolio",
+
+		"works_project-pet": "Pets Caturday",
+		"works_project-pet-desc": "Interactive website that serves as a hub for all cat enthusiasts. The project focuses on cats of different breeds and allows users to share their own cat photos as well as vote for their favorite feline representatives.",
+
+		"works_project-promt": "AI Promtopia",
+		"works_project-promt-desc": "Promptopia is an open-source AI prompting tool for modern world to discover, create, and share creative prompts.",
+
+		"works_project-code": "Code",
+		"works_project-live_demo": "<span>Live</span> Demo",
+
+		"works_load-more": "Explore more",
+
+		"certificates_title": "Certificates",
+
+		"education-title": "Education process",
+		"education-resources": "Information sources:",
+		"education-html_css": "<a href=\"https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr\" target=\"_blank\">A free of charge HTML and CSS course </a> on<span class=\"resourse-list__youtube\"> YouTube</span> created by Forever Freelancer",
+		"education-html_duration": "<span>Duration:</span> 1 month",
+		"education-html_lessons": "<span>Lessons:</span> 39 pcs",
+		"education-html_description": "<span>Description:</span> <span> This course in 2021 introduced me to the concept of \"Website Development\". The author's interesting approach and the room for implementing my ideas into various design elements of a website laid the foundation for my further development as a Frontend developer.</span",
+		"education-html_book": "HTML and CSS book",
+		"education-html_book_duration": "<span>Duration:</span> 3 months",
+		"education-html_book_info": "<span>Lessons:</span> The whole book was read and its tasks fulfilled",
+		"education-html_book_description": "<span>Description:</span> <span> After completing the course, I still felt uncertain about my own knowledge. To this, I started performing practical tasks after studying the theory from this book. This way, I fully understand what I'm doing.</span>",
+
+		"education-html_mdm": "MDM Web docs",
+		"education-html_mdm_duration": "<span>Duration:</span> Present time",
+		"education-html_mdm_lessons": "<span>Lessons:</span> Helps me on a daily basis.",
+		"education-html_mdm_description": "<span>Description:</span> <span>I have been using it just to fresh up the knowledge, e.g while I am struggling with a meaning of a certain attribute. </span>",
+
+		"education-js_duration": "<span>Duration:</span> 4 months.",
+		"education-js_lessons": "<span>Lessons:</span> all practical task were solved.",
+		"education-js_description": "<span>Description:</span> <span> After completing the study of HTML and CSS theory, I started reading this book and solving all the practical tasks after each chapter. Within 4 months, I covered all the material. To reinforce the learned theory and keep up with updates, I am now rereading the book for the <b>third</b> time.</span>",
+
+		"education-js_first-course-title": "<a href=\"https://www.udemy.com/course/javascript_practice/\" target=\"_blank\" >JavaScript practical course</a>  by Ivan Petrichenko",
+		"education-js_first-course-duration": "<span>Duration:</span> 1 month 15 days",
+		"education-js_first-course-lessons": "<span>Lessons:</span> 64 lectures • 23h 43m total length",
+		"education-js_first-course-descriptions": "<span>Description:</span> <span> To reinforce my theoretical knowledge of JavaScript, I enrolled in my first course that focuses on practical application. Throughout the course, we eveloped three projects, and afterwards, I rewrote the code for each of them to solidify my understanding.</span>",
+		"education-js_second-course-title": "<a href=\"https://www.udemy.com/course/javascript_full/\" target=\"_blank\">Complete JavaScript + React course - from scratch to results</a> by Ivan Petrichenko",
+		"education-js_second-course-duration": "<span>Duration:</span> 21 days for JavaScript section",
+		"education-js_second-course-lessons": "<span>Lessons:</span> 117 lectures • 33h 38m total length",
+		"education-js_second-course-description": "<span>Description:</span> <span> After completing the first practical JavaScript course by this author, I also studied the theoretical course. This helped me gain a fresh on the material I had already learned.</span>",
+
+		"education-js_codewars-duration": "<span>Duration:</span> Present Time",
+		"education-js_codewars-lessons": "<span>Lessons:</span> Total Completed Kata:21 pcs, 6ku",
+		"education-js_codewars-description": "<span>Description:</span> <span> Now to enhance my practical skills, I am solving tasks on this platform.</span>",
+
+		"education-react-title": "ReactJS and Redux",
+		"education-react-course-duration": "<span>Duration:</span> 2 months for React+Redux sections",
+		"education-react-course-lessons": "<span>Lessons:</span> 97 lectures • 30h and 7m total length",
+		"education-react-course-description": "<span>Description:</span> <span> I started learning React and Redux right away with the author's course. The course helped me quickly understand the purpose of using frameworks, reduced the struggle when reading its documentation later on, and increased the speed of my development process.</span>",
+
+		"education-react-documentation-title": "React`s Documentation",
+		"education-react-documentation-duration": "<span>Duration:</span> Present Time",
+		"education-react-documentation-lessons": "<span>Lessons:</span> All chapters were read in 15 days.",
+		"education-react-documentation-description": "<span>Description:</span> <span> After completing the course, to solidify the learned material,      I worked on a sufficient number of small projects. Then, in order to gain a deeper understanding of the technology, I read through all the. This helped me grasp the workings of the framework at a lower level (I hope a developer is reading this*).</span>",
+
+		"education-ts-course-title": "<a href=\"https://www.udemy.com/course/modern_typescript/\" target=\"_blank\">Complete course on modern TypeScript</a> by Ivan Petrichenko",
+		"education-ts-course-duration": "<span>Duration:</span> 23 days",
+		"education-ts-course-lessons": "<span>Lessons:</span> 100 lectures • 20h 18m total length",
+		"education-ts-course-descriptions": "<span>Description:</span> <span> To enhance my development efficiency, I also studied this language. It helped me reduce the number of errors and the time spent on debugging Additionally, developing in this language seems to assist in maintaining a clear code structure.</span>",
+
+		"education-ts-documentation-title": "TypeScript`s Documentation",
+		"education-ts-documentation-duration": "<span>Duration:</span> Present Time",
+		"education-ts-documentation-lessons": "<span>Lessons:</span> I have been reading it",
+		"education-ts-documentation-description": "<span>Description:</span> <span>Still awkward to read it. Hope you would agree.</span>",
+
+		"education-stuff-title": "Another stuff (Chrome extensions, Algoritms, React Native)",
+		"education-stuff-shortly": "In a nutshell:",
+		"education-stuff-description": "<b>Chrome extensions</b> - My current IT company employer uses a multifunctional web platform that requires a significant amount of time and effort to work with. To optimize my work, I have developed three browser extensions for Google Chrome that have been incredibly helpful.",
+		"education-stuff-second-description": "<b>React Native</b> - I developed only one basic application out of interest. I will continue to learn the technology as needed.",
+		"education-stuff-alg-description": "<b>Algoritms</b> - I have read twice a book <a href=\"https://www.amazon.com/\\Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230\" target=\"_blank\"> Grokking Algorithms </a> by Aditya Bhargava. Does it mean I know smth?)",
+
+		"interview-title": "Interview",
+
+		"footer_name": "Yevhen <br>Skaretskiy",
+		"footer_field": "Frontend developer",
+		"footer_phone": "My personal contact:<span>+380 97 788 64 38</span>",
+		"footer_skype": "Say hello, on Skype: <span>Skaretskiy</span>",
+
+		"form-block_contact": "Contact <span> Me.</span>",
+		"form-block_name": "What is your name? *",
+		"form-block_link": "What is your website link?",
+		"form-block_email": "What is your email?*",
+		"form-block_message": "Write your message here",
+		"form-block_send-message": "send message"
+	}
+}

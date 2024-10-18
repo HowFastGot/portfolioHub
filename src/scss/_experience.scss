@@ -1,0 +1,376 @@
+.page {
+	&__experience-section {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.experience-section {
+	&__div-block {
+		position: relative;
+	}
+
+	&__frame-own-photo {
+		position: relative;
+		min-width: 233px;
+		top: -543px;
+		left: 432px;
+		height: 360.5px;
+		width: 243px;
+		border-radius: 24px;
+		background: transparent;
+		border: 2px solid $BLUE;
+
+		&::after {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			bottom: -100px;
+			right: 50%;
+			height: 100px;
+			width: 1.8px;
+			background-color: $BLUE;
+		}
+
+		&::before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			bottom: -100px;
+			right: 50%;
+			width: 303px;
+			height: 1.8px;
+			background-color: $BLUE;
+		}
+
+		@media (max-width: 1211px) {
+			top: -608px;
+		}
+
+		@media (max-width: 1006px) {
+			display: none;
+		}
+	}
+
+	&__table-row {
+		margin-top: 30px;
+		width: 60%;
+		min-width: 865px;
+		border-spacing: 20px;
+
+		tbody {
+			position: relative;
+
+			tr {
+				&:nth-child(-n + 4) {
+					td:first-child {
+						width: 40%;
+						padding-left: 10px;
+
+						&::before {
+							content: '';
+							display: inline-block;
+							position: absolute;
+							left: -23px;
+							top: 0px;
+							vertical-align: middle;
+							width: 23px;
+							height: 23px;
+							background-color: $GOLD;
+							border: 2px solid $WHITE;
+							border-radius: 50%;
+
+							@media (max-width: 1146px) {
+								left: -18px;
+							}
+
+							@media (max-width: $md1) {
+								left: -10px;
+								top: 7px;
+								width: 13px;
+								height: 13px;
+							}
+						}
+
+						@media (max-width: $md3) {
+							p,
+							time {
+								font-size: 8px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2n + 5) {
+					line-height: 50px !important;
+					div {
+						margin: 0;
+					}
+				}
+
+				td:last-child {
+					width: 50%;
+
+					&.chrome-extensions {
+						@media (max-width: $md3) {
+							strong {
+								font-size: 14px;
+								white-space: nowrap;
+							}
+						}
+					}
+
+					&::before {
+						content: '';
+						display: inline-block;
+						position: absolute;
+						left: -40px;
+						top: 10px;
+						vertical-align: middle;
+						width: 33px;
+						height: 33px;
+						border-radius: 50%;
+
+						@media (max-width: $md3) {
+							width: 23px;
+							height: 23px;
+							left: -30px;
+						}
+					}
+
+					&.html-css::before {
+						background: url('../img/icons/experience/html_css.svg') no-repeat
+							center/cover;
+					}
+					&.jira::before {
+						background: center / 76% 90% url('../img/icons/experience/jira.svg')  no-repeat;
+					}
+
+					&.js::before {
+						background: url('../img/icons/experience/js.svg') no-repeat
+							center/cover;
+					}
+
+					&.reactJs::before {
+						background: url('../img/icons/experience/react.svg') no-repeat
+							center/cover;
+					}
+
+					&.ts::before {
+						background: url('../img/icons/experience/ts.svg') no-repeat
+							center/cover;
+					}
+					&.next::before {
+						background: url('../img/icons/experience/next.svg') no-repeat
+							center/cover;
+					}
+					
+
+					&.reactNative::before {
+						background: url('../img/icons/experience/react-native.svg')
+							no-repeat center/cover;
+					}
+
+					&.chrome-extensions::before {
+						background: url('../img/icons/experience/chrome-ext.svg') no-repeat
+							center/cover;
+					}
+
+					@media (max-width: 1006px) {
+						width: 20%;
+					}
+				}
+			}
+
+			&::before {
+				content: '';
+				display: inline-block;
+				position: absolute;
+				left: -13px;
+				top: -9px;
+				height: 741px;
+				width: 2px;
+				background-color: $BLUE;
+
+				@media (max-width: 1211px) {
+					top: -73px;
+					left: -12px;
+					height: 805px;
+				}
+
+				@media (max-width: 1143px) {
+					left: -8px;
+				}
+
+				@media (max-width: 1006px) {
+					display: none;
+				}
+			}
+		}
+
+		tr {
+			th {
+				text-align: left;
+				font-family: 'lato900';
+				font-size: 24px;
+				line-height: calc(29 / 24);
+				padding-bottom: 10px;
+
+				@media (max-width: $md2) {
+					font-size: 16px;
+					// text-align: center !important;
+				}
+			}
+
+			td {
+				position: relative;
+
+				strong {
+					@extend th;
+					padding-bottom: 0;
+					font-size: 20px;
+					line-height: calc(24 / 20);
+
+					@media (max-width: $md2) {
+						font-size: 14px;
+					}
+				}
+
+				p,
+				time {
+					font-size: 16px;
+
+					color: rgba(73, 71, 71, 0.87);
+
+					@media (min-width: $md3) {
+						line-height: calc(19 / 16);
+					}
+				}
+			}
+		}
+
+		@media (max-width: 1006px) {
+			width: 75%;
+			padding: 0 10px;
+			border-spacing: 5px;
+			min-width: 0;
+		}
+
+		@media (max-width: $md3) {
+			width: 95%;
+		}
+	}
+
+	&__skill-range {
+		position: relative;
+		width: 100%;
+		height: 6px;
+		margin-top: 12px;
+		background-color: rgba(0, 0, 0, 0.12);
+		border-radius: 28px;
+
+		&::before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			width: 90%;
+			height: 6px;
+			background: $VIO-BLUE-GRAD;
+			border-radius: 28px;
+		}
+
+		&_second {
+			&::before {
+				width: 85%;
+			}
+		}
+		&_second-jira {
+			&::before {
+				width: 82%;
+			}
+		}
+
+		&_third {
+			&::before {
+				width: 80%;
+			}
+		}
+
+		&_fourth {
+			&::before {
+				width: 65%;
+			}
+		}
+
+		&_next {
+			&::before {
+				width: 85%;
+			}
+		}
+
+		&_fifth {
+			&::before {
+				width: 30%;
+			}
+		}
+
+		&_sixth {
+			&::before {
+				width: 59%;
+			}
+		}
+	}
+
+	&__own-attr {
+		position: absolute;
+		left: 0;
+		top: -150px;
+
+		@media (max-width: $md1) {
+			top: -505px;
+			left: 20px;
+			z-index: -1;
+			pointer-events: none;
+
+			figure {
+				height: 500px;
+				width: 44px;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+				}
+			}
+		}
+	}
+}
+
+// ---Dark Theme-------
+
+body.dark {
+	.experience-section {
+		table {
+			th {
+				color: $BLUE;
+			}
+
+			tr {
+				td {
+					color: $WHITE;
+
+					p,
+					time {
+						color: $WHITE;
+					}
+				}
+			}
+		}
+
+		&__skill-range {
+			background-color: rgba(255, 255, 255, 0.12);
+		}
+	}
+}

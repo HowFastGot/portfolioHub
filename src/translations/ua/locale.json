@@ -1,0 +1,106 @@
+{
+	"Ukrainian": {
+		"header_hi": "Привіт,",
+		"header_name": "Моє ім'я Євген, <span>Front-End Розробник</span>",
+		"header_location": "Локація - <span>Україна</span>, більше ніж <b>2 роки</b> досвіду роботи в IT компанії.<br> Відкритий, стресостійкий та захоплений<wbr> своєю справою !</wbr>",
+
+		"main-rewards_englishLevel": "Англійська B2",
+		"main-rewards_experience": "2 роки <br> досвіду розробки",
+		"main-rewards_hoursOfLessons": "111 годин <br> навчаня",
+		"main-rewards_totalProjects": "27+ проектів",
+
+		"main-exp_workExperience": "Досвід Роботи",
+		"main-exp_skills": "Навички та Експертиза",
+		"main-exp_preframer-job": "<strong>Frontend Developer</strong> <p>Preframer Inc</p> <time>Червень 2023 - т.ч</time>",
+		"main-exp_dev-job": "<strong>Front-End Розробник</strong> <p>як Фрілансер</p> <time>Листопад 2021 - Серпень 2023</time>",
+		"main-exp_sales-job": "<strong>Sales manager</strong> <p>в компанії TrackEnsure </p> <time>Серпень 2021 - Серпень 2023</time>",
+		"main-exp_service-job": "<strong>Service manager</strong> <p>в компанії Comfy</p> <time>2019 - 2021</time>",
+
+		"works-title": "Портфоліо",
+
+		"works_project-pet": "Kitten Caturday",
+		"works_project-pet-desc": "Інтерактивний веб-сайт, який служить центром для всіх шанувальників кішок. Проект фокусується на кішках різних порід і дозволяє користувачам ділитися своїми фотографіями кішок, а також голосувати за своїх улюблених представників кошачого світу.",
+
+		"works_project-promt": "AI Promtopia",
+		"works_project-promt-desc": "Promptopia - це відкрите інструмент штучного інтелекту для створення та обміну творчими завданнями в сучасному світі.",
+
+		"works_project-code": "Код проекту",
+		"works_project-live_demo": "<span>Live</span> Демонстрація",
+		"works_load-more": "Завантажити більше",
+
+		"certificates_title": "Сертифікати",
+
+		"education-title": "Шлях навчаня",
+		"education-resources": "Джерела інформації",
+		"education-html_css": "<a href=\"https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr\" target=\"_blank\">Безкоштовний HTML і CSS курс </a> на <span class=\"resourse-list__youtube\">YouTube</span> створений розробником Фрілансер по життю",
+		"education-html_duration": "<span>Тривалість:</span> 1 місяць",
+		"education-html_lessons": "<span>Занять:</span> 39 шт.",
+		"education-html_description": "<span>Опис:</span> <span> Цей курс у 2021 році познайомив мене з концепцією \"Розробка веб-сайтів\". Цікавий підхід автора та можливість реалізувати свої ідеї у різних елементах дизайну веб-сайту поклали основу для мого подальшого розвитку як розробника Front-End.</span",
+		"education-html_book": "Книга по HTML і CSS",
+		"education-html_book_duration": "<span>Тривалість:</span> 3 місяці",
+		"education-html_book_info": "<span>Занять:</span> Вся книга була прочитана, а її завдання були виконані.",
+		"education-html_book_description": "<span>Опис:</span> <span>Після завершення курсу я все ще відчував невпевненість у своїх знаннях. Щоб вирішити цю проблему, я почав виконувати практичні завдання після вивчення теорії з цієї книги. Таким чином, я повністю розумію, що роблю.</span>",
+
+		"education-html_mdm": "Документіція \"MDM Web\"",
+		"education-html_mdm_duration": "<span>Тривалість:</span> До теперішнього часу",
+		"education-html_mdm_lessons": "<span>Занять:</span> Допомагає мені кожного дня й досі.",
+		"education-html_mdm_description": "<span>Опис:</span> <span>Я використовую це лише для оновлення знань, наприклад, коли у мене виникають сумніви щодо значення певного атрибуту. </span>",
+
+		"education-js_duration": "<span>Тривалість:</span> 4 місяці.",
+		"education-js_lessons": "<span>Занять:</span> Всі практичні завдання були вирішені.",
+		"education-js_description": "<span>Опис:</span> <span> Після завершення вивчення теорії HTML і CSS я почав читати цю книгу та вирішувати практичні завдання після кожного розділу. За чотири місяці я пройшов усі матеріали. Щоб закріпити засвоєну теорію та бути в курсі оновлень, я зараз читаю цю книгу в <b>третє</b>.</span>",
+
+		"education-js_first-course-title": "<a href=\"https://www.udemy.com/course/javascript_practice/\" target=\"_blank\" >Практичний JavaScript (Просунутий рівень)</a>, створений Іваном Петриченко.",
+		"education-js_first-course-duration": "<span>Тривалість:</span> 1 місяць і 15 днів.",
+		"education-js_first-course-lessons": "<span>Занять:</span> 64 занять • 23 години і 43 хвилин загальна тривалість.",
+		"education-js_first-course-descriptions": "<span>Опис:</span> <span> Для закріплення теоретичних знань з JavaScript, я придбав свій перший курс, який акцентується на практичному застосуванні мови JavaScript. Протягом курсу ми розробили три проекти, а потім я самостійно переписав код для кожного з них, щоб зміцнити моє розуміння.</span>",
+		"education-js_second-course-title": "<a href=\"https://www.udemy.com/course/javascript_full/\" target=\"_blank\">Повний курс по JavaScript + React-  з нуля до результату</a>, створений Іваном Петриченко.",
+		"education-js_second-course-duration": "<span>Тривалість:</span> 21 день по JavaScript секції.",
+		"education-js_second-course-lessons": "<span>Занять:</span> 117 занять • 33 години 38 хвилин загальна тривалість.",
+		"education-js_second-course-description": "<span>Опис:</span> <span> Після завершення першого практичного курсу з JavaScript від цього автора, я також вивчив метеріал теоретичного курсу. Це допомогло мені освіжити мої знання та побачити погляд досвідченого розробника на вже відому мені теорію.</span>",
+
+		"education-js_codewars-duration": "<span>Тривалість:</span> До теперішнього часу.",
+		"education-js_codewars-lessons": "<span>Занять:</span> Вирішено завдань: 21 шт., 6ku",
+		"education-js_codewars-description": "<span>Опис:</span> <span> Зараз, для покращення моїх практичних навичок, я вирішую завдання на цій платформі.</span>",
+
+		"education-react-title": "ReactJS та Redux",
+		"education-react-course-duration": "<span>Тривалість:</span> 2 місяці для вивчена частини про ReactJS та Redux",
+		"education-react-course-lessons": "<span>Занять:</span> 97 уроків • 30 годин and 7 хвилин загальна тривалість",
+		"education-react-course-description": "<span>Опис:</span> <span> Я відразу ж почав вивчати React і Redux за допомогою курсу цього ж автора. Курс допоміг мені швидко зрозуміти ціль використання фреймворків, зменшив складнощі під час подальшого читання документації та прискорив процес мого розвитку.</span>",
+
+		"education-react-documentation-title": "Документація React",
+		"education-react-documentation-duration": "<span>Тривалість:</span> До теперішнього часу",
+		"education-react-documentation-lessons": "<span>Занять:</span> Всі розділи були прочитані за 15 днів.",
+		"education-react-documentation-description": "<span>Опис:</span> <span> Після завершення курсу, щоб закріпити засвоєний матеріал, я працював над достатньою кількістю невеликих проектів. Потім, з метою отримання глибшого розуміння технології, я прочитав всю документацію. Це допомогло мені усвідомити роботу фреймворку на більш низькому рівні (Я сподіваюся, що це читає розробник*).</span>",
+
+		"education-ts-course-title": "<a href=\"https://www.udemy.com/course/modern_typescript/\" target=\"_blank\">Повний курс по сучасному TypeScript</a>, створений Іваном Петриченко.",
+		"education-ts-course-duration": "<span>Тривалість:</span> 23 дні.",
+		"education-ts-course-lessons": "<span>Занять:</span> 100 занять • 20 годин та 18 хвилин загальна тривалість.",
+		"education-ts-course-descriptions": "<span>Опис:</span> <span> Для підвищення ефективності та надійностімоєї розробки, я вивчаю і цю мову програмування. Вона допомагає мені зменшити кількість помилок і час, витрачений на їх відлагодження. Окрім того, розробка на цій мові допомагає підтримувати чітку структуру коду слідуючи патернам програмування.</span>",
+
+		"education-ts-documentation-title": "Документація TypeScript",
+		"education-ts-documentation-duration": "<span>Тривалість:</span> До теперішнього часу",
+		"education-ts-documentation-lessons": "<span>Занять:</span> Я все ще вивчаю докуменацію мови.",
+		"education-ts-documentation-description": "<span>Опис:</span> <span>Ще досі важко читати цю докуменацію. Сподіваюся, ви згодні з цим.</span>",
+
+		"education-stuff-title": "Інші знання (Розширення Chrome, Алгоритми, React Native)",
+		"education-stuff-shortly": "Коротко:",
+		"education-stuff-description": "<b>Розширення Chrome</b> - Мій поточний роботодавець у сфері ІТ використовує багатофункціональну веб-платформу, яка вимагає значних зусиль та часу для роботи з нею. Щоб оптимізувати свою роботу, я розробив три розширення для Google Chrome, які дуже полегшили мені роботу.",
+		"education-stuff-second-description": "<b>React Native</b> - Я розробив лише одну базову програму з цікавості. Я буду продовжувати вивчати цю технологію по мірі необхідності.",
+		"education-stuff-alg-description": "<b>Algoritms</b> - Я двічі прочитав книгу <a href=\"https://www.amazon.com/\\Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230\" target=\"_blank\"> Грокаєм алгоритми</a> написану Aditya Bhargava. Чи означає це, що я їх знаю?)",
+
+		"interview-title": "Інтерв'ю",
+
+		"footer_name": "Скарецький <br>Євген",
+		"footer_field": "Frontend розробник",
+		"footer_phone": "Mій номер телефону:<span>+380 97 788 64 38</span>",
+		"footer_skype": "Напиши \"Привіт\" до Skype: <span>Skaretskiy</span>",
+
+		"form-block_contact": "Зв'язатись зі <span> Мною.</span>",
+		"form-block_name": "Вкажіть ваше ім'я! *",
+		"form-block_link": "Посилання на сайт вашої компанії?",
+		"form-block_email": "Вкажіть вашу email пошту! *",
+		"form-block_message": "Напишіть ваше повідомлення",
+		"form-block_send-message": "Надіслати"
+	}
+}

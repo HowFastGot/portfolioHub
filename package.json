@@ -1,0 +1,73 @@
+{
+	"name": "window",
+	"version": "1.0.0",
+	"private": true,
+	"homepage": "https://skaretskiy.uk/",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "gulp",
+		"build": "gulp build --build",
+		"svgSprive": "gulp svgSprive",
+		"deploy": "gh-pages -d dist",
+		"zip": "gulp deployZIP --build"
+	},
+	"author": "",
+	"license": "ISC",
+	"browserslist": [
+		"> 1%",
+		"not dead"
+	],
+	"devDependencies": {
+		"@babel/core": "latest",
+		"@babel/preset-env": "latest",
+		"babel": "latest",
+		"babel-loader": "latest",
+		"browser-sync": "latest",
+		"core-js": "latest",
+		"del": "latest",
+		"eslint": "^8.44.0",
+		"fs": "latest",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "latest",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-file-include": "latest",
+		"gulp-fonter": "latest",
+		"gulp-group-css-media-queries": "latest",
+		"gulp-if": "latest",
+		"gulp-imagemin": "latest",
+		"gulp-newer": "latest",
+		"gulp-notify": "latest",
+		"gulp-plumber": "latest",
+		"gulp-rename": "latest",
+		"gulp-replace": "latest",
+		"gulp-sass": "^5.1.0",
+		"gulp-svg-sprite": "latest",
+		"gulp-ttf2woff2": "latest",
+		"gulp-util": "latest",
+		"gulp-version-number": "latest",
+		"gulp-webp": "latest",
+		"gulp-webp-html-nosvg": "latest",
+		"gulp-webpcss": "latest",
+		"gulp-zip": "latest",
+		"sass": "^1.63.3",
+		"vinyl-ftp": "latest",
+		"webp-converter": "^2.2.3",
+		"webpack": "latest",
+		"webpack-stream": "latest"
+	},
+	"dependencies": {
+		"animate.css": "^4.1.1",
+		"gh-pages": "^5.0.0",
+		"node-polyglot": "^2.5.0"
+	},
+	"standard": {
+		"ignore": [
+			"/gulp/tasks",
+			"/gulp/config",
+			"/src/js/services",
+			"/src/js/modules"
+		]
+	}
+}
