@@ -58,7 +58,7 @@ function getCurrentPageLanguage() {
 }
 
 const getAsyncLanguageDataObject = async (languageOfPage) => {
-	const languageJSONPath = `/translations/${possiblePageLangs[languageOfPage]}/locale.json`;
+	const languageJSONPath = `/portfolioHub/translations/${possiblePageLangs[languageOfPage]}/locale.json`;
 
 	try {
 		return await getResource(languageJSONPath);

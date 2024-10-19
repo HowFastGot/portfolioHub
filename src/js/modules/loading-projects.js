@@ -26,7 +26,7 @@ const cacheServerResponse = (response) => {
 };
 
 const asyncLoadProjects = async () => {
-	const projectJSONUrl = '../projects/projects.json';
+	const projectJSONUrl = '/portfolioHub/projects/projects.json';
 	try {
 		const response = await getResource(projectJSONUrl);
 
