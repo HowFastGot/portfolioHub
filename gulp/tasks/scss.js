@@ -1,3 +1,4 @@
+/*global app */
 import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
@@ -21,7 +22,7 @@ export const scss = () => {
 					})
 				)
 			)
-			.pipe(app.plugins.replace(/@img\//g, '/img/'))
+			.pipe(app.plugins.replace(/@img\//g, '/portfolioHub/img/'))
 			.pipe(
 				sass({
 					outputStyle: 'expanded',
