@@ -62,7 +62,7 @@
 				"technologies": "<span>React Router</span> <span>SCSS</span> <span>TypeScript</span> <span>ReactJS</span> <span>Redux</span>",
 				"codeLink": "https://github.com/HowFastGot/Vin_Numbers_Decoder",
 				"liveDemoLink": "#",
-				"imgURL": "/portfolioHub/img/main/projects/vin_decoder.jpg"
+				"imgURL": "/portfolioHub/img/main/projects/vin_decoder.webp"
 			},
 			"ua": {
 				"title": "VIN ДЕКОДЕР",
@@ -70,7 +70,7 @@
 				"technologies": "<span>React Router</span> <span>SCSS</span> <span>TypeScript</span> <span>ReactJS</span> <span>Redux</span>",
 				"codeLink": "https://github.com/HowFastGot/Vin_Numbers_Decoder",
 				"liveDemoLink": "#",
-				"imgURL": "/portfolioHub/img/main/projects/vin_decoder.jpg"
+				"imgURL": "/portfolioHub/img/main/projects/vin_decoder.webp"
 			},
 			"ru": {
 				"title": "VIN ДЕКОДЕР",
@@ -78,7 +78,7 @@
 				"technologies": "<span>React Router</span> <span>SCSS</span> <span>TypeScript</span> <span>ReactJS</span> <span>Redux</span>",
 				"codeLink": "https://github.com/HowFastGot/Vin_Numbers_Decoder",
 				"liveDemoLink": "#",
-				"imgURL": "/portfolioHub/img/main/projects/vin_decoder.jpg"
+				"imgURL": "/portfolioHub/img/main/projects/vin_decoder.webp"
 			}
 		},
 		"6": {
@@ -88,7 +88,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span>",
 				"codeLink": "https://github.com/HowFastGot/portfolio-target",
 				"liveDemoLink": "https://www.vovk-digital.com",
-				"imgURL": "/portfolioHub/img/main/projects/targetolog.jpg"
+				"imgURL": "/portfolioHub/img/main/projects/targetolog.webp"
 			},
 			"ua": {
 				"title": "CV-портфоліо таргетолога",
@@ -96,7 +96,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span>",
 				"codeLink": "https://github.com/HowFastGot/portfolio-target",
 				"liveDemoLink": "https://www.vovk-digital.com",
-				"imgURL": "/portfolioHub/img/main/projects/targetolog.jpg"
+				"imgURL": "/portfolioHub/img/main/projects/targetolog.webp"
 			},
 			"ru": {
 				"title": "CV-портфолио таргетолога",
@@ -104,7 +104,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span>",
 				"codeLink": "https://github.com/HowFastGot/portfolio-target",
 				"liveDemoLink": "https://www.vovk-digital.com",
-				"imgURL": "/portfolioHub/img/main/projects/targetolog.jpg"
+				"imgURL": "/portfolioHub/img/main/projects/targetolog.webp"
 			}
 		},
 		"7": {
