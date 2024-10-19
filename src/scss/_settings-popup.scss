@@ -24,12 +24,12 @@
 		&_moon {
 			width: 25px;
 			height: 25px;
-			background: url('./portfolioHub/img/icons/Header/settings-popup/moon.svg') no-repeat center/80%;
+			background: url('../img/icons/Header/settings-popup/moon.svg') no-repeat center/80%;
 		}
 
 		&_sun {
 			@extend .settings-popup__theme_moon;
-			background: url('./portfolioHub/img/icons/Header/settings-popup/sun.svg') no-repeat center/100%;
+			background: url('../img/icons/Header/settings-popup/sun.svg') no-repeat center/100%;
 		}
 	}
 
@@ -38,7 +38,7 @@
 		width: 25px;
 		height: 25px;
 		margin: 10px 0;
-		background: url('./portfolioHub/img/icons/Header/settings-popup/language.svg') no-repeat center/100%;
+		background: url('../img/icons/Header/settings-popup/language.svg') no-repeat center/100%;
 		cursor: pointer;
 
 		&:hover,
@@ -107,19 +107,19 @@
 
 		&_en {
 			&::after {
-				background: url('./portfolioHub/img/icons/Header/settings-popup/lang-icons/en.svg') no-repeat center/100%;
+				background: url('../img/icons/Header/settings-popup/lang-icons/en.svg') no-repeat center/100%;
 			}
 		}
 
 		&_ua {
 			&::after {
-				background: url('./portfolioHub/img/icons/Header/settings-popup/lang-icons/ua.svg') no-repeat center/125%;
+				background: url('../img/icons/Header/settings-popup/lang-icons/ua.svg') no-repeat center/125%;
 			}
 		}
 
 		&_pig {
 			&::after {
-				background: url('./portfolioHub/img/icons/Header/settings-popup/lang-icons/rus 1.svg') no-repeat center/contain;
+				background: url('../img/icons/Header/settings-popup/lang-icons/rus 1.svg') no-repeat center/contain;
 				background-color: #fff;
 			}
 		}

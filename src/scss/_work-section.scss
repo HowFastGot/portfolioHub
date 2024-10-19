@@ -193,7 +193,7 @@
 			width: 23px;
 			height: 23px;
 			margin-right: 5px;
-			background: url('./portfolioHub/img/icons/work/github.svg') no-repeat center/cover;
+			background: url('../img/icons/work/github.svg') no-repeat center/cover;
 		}
 	}
 
@@ -216,7 +216,7 @@
 			width: 18px;
 			height: 18px;
 			margin-left: 5px;
-			background: url('./portfolioHub/img/icons/work/redirect.png') no-repeat center/cover;
+			background: url('../img/icons/work/redirect.png') no-repeat center/cover;
 		}
 	}
 
@@ -329,7 +329,7 @@ body.dark {
 			color: $WHITE;
 
 			&::before {
-				background: url('./portfolioHub/img/icons/work/jam_github.svg') no-repeat center/cover;
+				background: url('../img/icons/work/jam_github.svg') no-repeat center/cover;
 			}
 		}
 
@@ -337,7 +337,7 @@ body.dark {
 			color: $WHITE;
 
 			&::after {
-				background: url('./portfolioHub/img/icons/work/outline_next.svg') no-repeat center/cover;
+				background: url('../img/icons/work/outline_next.svg') no-repeat center/cover;
 			}
 		}
 

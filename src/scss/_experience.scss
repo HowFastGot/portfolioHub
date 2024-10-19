@@ -141,33 +141,33 @@
 					}
 
 					&.html-css::before {
-						background: url('./portfolioHub/img/icons/experience/html_css.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/html_css.svg') no-repeat center/cover;
 					}
 					&.jira::before {
-						background: center / 76% 90% url('./portfolioHub/img/icons/experience/jira.svg') no-repeat;
+						background: center / 76% 90% url('/portfolioHub/img/icons/experience/jira.svg') no-repeat;
 					}
 
 					&.js::before {
-						background: url('./portfolioHub/img/icons/experience/js.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/js.svg') no-repeat center/cover;
 					}
 
 					&.reactJs::before {
-						background: url('./portfolioHub/img/icons/experience/react.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/react.svg') no-repeat center/cover;
 					}
 
 					&.ts::before {
-						background: url('./portfolioHub/img/icons/experience/ts.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/ts.svg') no-repeat center/cover;
 					}
 					&.next::before {
-						background: url('./portfolioHub/img/icons/experience/next.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/next.svg') no-repeat center/cover;
 					}
 
 					&.reactNative::before {
-						background: url('./portfolioHub/img/icons/experience/react-native.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/react-native.svg') no-repeat center/cover;
 					}
 
 					&.chrome-extensions::before {
-						background: url('./portfolioHub/img/icons/experience/chrome-ext.svg') no-repeat center/cover;
+						background: url('../img/icons/experience/chrome-ext.svg') no-repeat center/cover;
 					}
 
 					@media (max-width: 1006px) {
