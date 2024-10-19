@@ -148,7 +148,7 @@ h6 {
 }
 
 .no-webp .header__img-block {
-  background: url("./portfolioHub/img/icons/Header/bitmap.jpg") center/cover no-repeat; }
+  background: url("../img/icons/Header/bitmap.jpg") center/cover no-repeat; }
 
 .header__img-block {
   -ms-flex-item-align: start;
@@ -539,35 +539,35 @@ body.light .menu-header__logo.animate__bounceIn {
 }
 
 .experience-section__table-row tbody tr td:last-child.html-css::before {
-  background: url("./portfolioHub/img/icons/experience/html_css.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/html_css.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody tr td:last-child.jira::before {
-  background: center/76% 90% url("./portfolioHub/img/icons/experience/jira.svg") no-repeat;
+  background: center/76% 90% url("/portfolioHub/img/icons/experience/jira.svg") no-repeat;
 }
 
 .experience-section__table-row tbody tr td:last-child.js::before {
-  background: url("./portfolioHub/img/icons/experience/js.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/js.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody tr td:last-child.reactJs::before {
-  background: url("./portfolioHub/img/icons/experience/react.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/react.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody tr td:last-child.ts::before {
-  background: url("./portfolioHub/img/icons/experience/ts.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/ts.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody tr td:last-child.next::before {
-  background: url("./portfolioHub/img/icons/experience/next.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/next.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody tr td:last-child.reactNative::before {
-  background: url("./portfolioHub/img/icons/experience/react-native.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/react-native.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody tr td:last-child.chrome-extensions::before {
-  background: url("./portfolioHub/img/icons/experience/chrome-ext.svg") no-repeat center/cover;
+  background: url("../img/icons/experience/chrome-ext.svg") no-repeat center/cover;
 }
 
 .experience-section__table-row tbody::before {
@@ -838,7 +838,7 @@ body.dark .experience-section__skill-range {
   width: 23px;
   height: 23px;
   margin-right: 5px;
-  background: url("./portfolioHub/img/icons/work/github.svg") no-repeat center/cover;
+  background: url("../img/icons/work/github.svg") no-repeat center/cover;
 }
 
 .works__online-link {
@@ -858,7 +858,7 @@ body.dark .experience-section__skill-range {
 }
 
 .no-webp .works__online-link::after {
-  background: url("./portfolioHub/img/icons/work/redirect.png") no-repeat center/cover; }
+  background: url("../img/icons/work/redirect.png") no-repeat center/cover; }
 
 .works__online-link::after {
   content: "";
@@ -990,7 +990,7 @@ body.dark .works__git-link {
 }
 
 body.dark .works__git-link::before {
-  background: url("./portfolioHub/img/icons/work/jam_github.svg") no-repeat center/cover;
+  background: url("../img/icons/work/jam_github.svg") no-repeat center/cover;
 }
 
 body.dark .works__online-link {
@@ -998,7 +998,7 @@ body.dark .works__online-link {
 }
 
 body.dark .works__online-link::after {
-  background: url("./portfolioHub/img/icons/work/outline_next.svg") no-repeat center/cover;
+  background: url("../img/icons/work/outline_next.svg") no-repeat center/cover;
 }
 
 body.dark .works__load-button-block button {
@@ -1190,7 +1190,7 @@ body.dark .certificates h6 {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  background: url("./portfolioHub/img/icons/Footer/Name-Logi.svg") no-repeat center/cover;
+  background: url("../img/icons/Footer/Name-Logi.svg") no-repeat center/cover;
 }
 
 .contact-info__ocupation {
@@ -1441,11 +1441,11 @@ body.dark .certificates h6 {
 .settings-popup__theme_sun {
   width: 25px;
   height: 25px;
-  background: url("./portfolioHub/img/icons/Header/settings-popup/moon.svg") no-repeat center/80%;
+  background: url("../img/icons/Header/settings-popup/moon.svg") no-repeat center/80%;
 }
 
 .settings-popup__theme_sun {
-  background: url("./portfolioHub/img/icons/Header/settings-popup/sun.svg") no-repeat center/100%;
+  background: url("../img/icons/Header/settings-popup/sun.svg") no-repeat center/100%;
 }
 
 .settings-popup__lang {
@@ -1453,7 +1453,7 @@ body.dark .certificates h6 {
   width: 25px;
   height: 25px;
   margin: 10px 0;
-  background: url("./portfolioHub/img/icons/Header/settings-popup/language.svg") no-repeat center/100%;
+  background: url("../img/icons/Header/settings-popup/language.svg") no-repeat center/100%;
   cursor: pointer;
 }
 
@@ -1522,15 +1522,15 @@ body.dark .certificates h6 {
 }
 
 .settings-popup__lang-item_en::after {
-  background: url("./portfolioHub/img/icons/Header/settings-popup/lang-icons/en.svg") no-repeat center/100%;
+  background: url("../img/icons/Header/settings-popup/lang-icons/en.svg") no-repeat center/100%;
 }
 
 .settings-popup__lang-item_ua::after {
-  background: url("./portfolioHub/img/icons/Header/settings-popup/lang-icons/ua.svg") no-repeat center/125%;
+  background: url("../img/icons/Header/settings-popup/lang-icons/ua.svg") no-repeat center/125%;
 }
 
 .settings-popup__lang-item_pig::after {
-  background: url("./portfolioHub/img/icons/Header/settings-popup/lang-icons/rus 1.svg") no-repeat center/contain;
+  background: url("../img/icons/Header/settings-popup/lang-icons/rus 1.svg") no-repeat center/contain;
   background-color: #fff;
 }
 
@@ -1741,7 +1741,7 @@ body.dark .interview__title {
   width: 10px;
   height: 10px;
   margin-right: 5px;
-  background: url("./portfolioHub/img/icons/education/share-arrow-wht.svg") center/cover no-repeat;
+  background: url("../img/icons/education/share-arrow-wht.svg") center/cover no-repeat;
 }
 
 .resourse-list__youtube {
@@ -2796,7 +2796,7 @@ body.dark .section-title {
     position: absolute;
     right: 10px;
     top: -5px;
-    background: url("./portfolioHub/img/icons/education/arr-accordion.svg") center/cover no-repeat;
+    background: url("../img/icons/education/arr-accordion.svg") center/cover no-repeat;
   }
 
   .education-text__resourse-list a {
@@ -2875,6 +2875,6 @@ body.dark .section-title {
   }
 }
 
-.webp .header__img-block { background: url(./portfolioHub/img/icons/Header/bitmap.webp) center/cover no-repeat; }
+.webp .header__img-block { background: url(../img/icons/Header/bitmap.webp) center/cover no-repeat; }
 
-.webp .works__online-link::after { background: url(./portfolioHub/img/icons/work/redirect.webp) no-repeat center/cover; }
+.webp .works__online-link::after { background: url(../img/icons/work/redirect.webp) no-repeat center/cover; }
