@@ -1,11 +1,8 @@
-import {changePositionPseudoWorkTitle} from './changePositionPseudoTitle.js';
-import {getResource} from '../services/requests.js';
-import {errorPopup} from './errorPopup.js';
-import {findDOM_node} from './findDOM_node.js';
-import {
-	deleteAddedProjects,
-	changeProjectQuantityIndicator,
-} from './loading-projects.js';
+import { changePositionPseudoWorkTitle } from './changePositionPseudoTitle.js';
+import { getResource } from '../services/requests.js';
+import { errorPopup } from './errorPopup.js';
+import { findDOM_node } from './findDOM_node.js';
+import { deleteAddedProjects, changeProjectQuantityIndicator } from './loading-projects.js';
 
 import Polyglot from 'node-polyglot';
 
@@ -34,8 +31,7 @@ const changeActiveLangItem = (e) => {
 	const currentTarget = e.currentTarget;
 	const languageItemsArray = Array.from(currentTarget.children);
 
-	if (languageItemsArray.length < 1 || !languageItemsArray.includes(e.target))
-		return;
+	if (languageItemsArray.length < 1 || !languageItemsArray.includes(e.target)) return;
 
 	const indexOfClickedItem = languageItemsArray.indexOf(e.target);
 
@@ -47,9 +43,7 @@ const changeActiveLangItem = (e) => {
 		}
 	});
 
-	const choosenLang = languageItemsArray[indexOfClickedItem].textContent
-		.toLowerCase()
-		.trim();
+	const choosenLang = languageItemsArray[indexOfClickedItem].textContent.toLowerCase().trim();
 
 	setUpSessionStorageLanguage(choosenLang);
 	changePositionPseudoWorkTitle(choosenLang);
@@ -67,17 +61,15 @@ const getAsyncLanguageDataObject = async (languageOfPage) => {
 	const languageJSONPath = `../translations/${possiblePageLangs[languageOfPage]}/locale.json`;
 
 	try {
-		const res = await getResource(languageJSONPath);
-
-		return res;
+		return await getResource(languageJSONPath);
 	} catch (error) {
 		errorPopup();
 		console.error(`Ошибка доступа к fetch: ${languageJSONPath}!`);
 	}
 };
 
-const changeTextContentofPage = ({English, Ukrainian, Russian}) => {
-	const polyglot = new Polyglot({phrases: English ?? Ukrainian ?? Russian});
+const changeTextContentofPage = ({ English, Ukrainian, Russian }) => {
+	const polyglot = new Polyglot({ phrases: English ?? Ukrainian ?? Russian });
 
 	const textBlocks = document.querySelectorAll('[data-i18n]');
 
@@ -95,7 +87,7 @@ const changeTextContentofPage = ({English, Ukrainian, Russian}) => {
 
 async function pageInternationalization(choosenPageLang) {
 	const currentLanguageData = await getAsyncLanguageDataObject(choosenPageLang);
-	console.log(currentLanguageData);
+	console.log(currentLanguageData, 'Language model block');
 	changeTextContentofPage(currentLanguageData);
 }
 
@@ -116,6 +108,5 @@ export function changePageLanguage(languagesBlockSelector) {
 
 	changePositionPseudoWorkTitle(getCurrentPageLanguage());
 
-	parentLangBlock &&
-		parentLangBlock.addEventListener('click', comprehensiveFunction);
+	parentLangBlock && parentLangBlock.addEventListener('click', comprehensiveFunction);
 }
