@@ -1,7 +1,7 @@
-import {isMultiElements} from './isMultiElements.js';
+import { isMultiElements } from './isMultiElements.js';
 
 function retrivePropsObjectNeeded(scrollEventObj) {
-	const {isIntersecting, target: interSectionTargetElement} = scrollEventObj;
+	const { isIntersecting, target: interSectionTargetElement } = scrollEventObj;
 
 	return {
 		isIntersecting,
@@ -19,30 +19,23 @@ function getKindOfAnimation(targetElementType) {
 		case 'div':
 			return 'animate__slideInLeft';
 		default:
-			console.error(
-				'Check interSectionObserver file. No animations were applied!'
-			);
+			console.error('Check interSectionObserver file. No animations were applied!');
 	}
 }
 
 function changeEducationImg(interSectionTargetElement) {
 	interSectionTargetElement
 		.closest('.education-block__row')
-		.querySelector('img')
-		.setAttribute('src', interSectionTargetElement.dataset.education_img_url);
+		.querySelector('source')
+		.setAttribute('srcset', interSectionTargetElement.dataset.education_img_url);
 }
 
 function animateTargetElement(interSectionTargetElement) {
-	interSectionTargetElement.classList.add(
-		'animate__animated',
-		getKindOfAnimation(interSectionTargetElement)
-	);
+	interSectionTargetElement.classList.add('animate__animated', getKindOfAnimation(interSectionTargetElement));
 }
 
 function handleEducationItemsScroll(entries) {
-	const {isIntersecting, interSectionTargetElement} = retrivePropsObjectNeeded(
-		entries[0]
-	);
+	const { isIntersecting, interSectionTargetElement } = retrivePropsObjectNeeded(entries[0]);
 
 	if (!isIntersecting) return;
 
@@ -50,9 +43,7 @@ function handleEducationItemsScroll(entries) {
 }
 
 function handleScrollIntersection(entries) {
-	const {isIntersecting, interSectionTargetElement} = retrivePropsObjectNeeded(
-		entries[0]
-	);
+	const { isIntersecting, interSectionTargetElement } = retrivePropsObjectNeeded(entries[0]);
 
 	if (!isIntersecting) return;
 
@@ -71,13 +62,9 @@ function getCreatedIntersectionObserver(isMultiElemsObserve) {
 		threshold: 1,
 	};
 
-	const options = isMultiElemsObserve
-		? configEducationSectionObject
-		: confingInterviewSectionObject;
+	const options = isMultiElemsObserve ? configEducationSectionObject : confingInterviewSectionObject;
 
-	const intersectionHandler = isMultiElemsObserve
-		? handleEducationItemsScroll
-		: handleScrollIntersection;
+	const intersectionHandler = isMultiElemsObserve ? handleEducationItemsScroll : handleScrollIntersection;
 
 	const observer = new IntersectionObserver(intersectionHandler, options);
 
@@ -85,8 +72,7 @@ function getCreatedIntersectionObserver(isMultiElemsObserve) {
 }
 
 export function interSectionScrollHandler(targetElemSelector) {
-	const interSectionTargetElements =
-		document.querySelectorAll(targetElemSelector);
+	const interSectionTargetElements = document.querySelectorAll(targetElemSelector);
 
 	if (isMultiElements(interSectionTargetElements)) {
 		const observer = getCreatedIntersectionObserver(true);
