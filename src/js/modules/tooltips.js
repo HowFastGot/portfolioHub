@@ -1,10 +1,10 @@
-import {smoothScroll} from './smoothScroll.js';
+import { smoothScroll } from './smoothScroll.js';
 
 const createProperAttrs = (dataAttrText, tooltip) => {
 	switch (dataAttrText) {
 		case 'Download CV.pdf':
-			tooltip.setAttribute('href', '../assets/Frontend Skaretskiy Yevhen.pdf');
-			tooltip.setAttribute('download', 'Frontend Skaretskiy Yevhen');
+			tooltip.setAttribute('href', '/portfolioHub/assets/SkaretskiyEugene.pdf');
+			tooltip.setAttribute('download', 'Frontend position for Skaretskiy Eugene.pdf');
 			break;
 		case 'Email message':
 			tooltip.setAttribute('href', 'mailto:yevhenskaretskiy@gmail.com');
