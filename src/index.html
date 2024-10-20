@@ -2,7 +2,7 @@
 <html lang="en">
 	@@include('html/_head.html', { "title": "Skaretskiy Portfolio" })
 
-	<body>
+	<body class="_lock">
 		@@include('html/_header.html', {})
 		<main class="page _container">
 			@@include('html/_rewards.html', {})
@@ -23,6 +23,12 @@
 		@@include('html/_buttonScroll.html',{})
 		<!--Tempalte -->
 		@@include('html/_projectTemplate.html', {})
+		<!-- Preloader -->
+		<div class="page__preloader-block" id="preloader">
+			<span class="page__loader-element"></span>
+			<span class="page__loader-element"></span>
+			<span class="page__loader-element"></span>
+		</div>
 
 		<script src="js/app.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>

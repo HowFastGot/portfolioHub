@@ -1,27 +1,16 @@
-import {isMultiElements} from './isMultiElements.js';
+import { isMultiElements } from './isMultiElements.js';
 
 function showError(error) {
-	console.error(
-		"Animated element wasn't found! Check handleElementAnimation function!",
-		error.message
-	);
+	console.error("Animated element wasn't found! Check handleElementAnimation function!", error.message);
 }
 
-function nextAnimationHandler(
-	parentAnimatedElement,
-	nextAnimatedElementSelector,
-	animation
-) {
+function nextAnimationHandler(parentAnimatedElement, nextAnimatedElementSelector, animation) {
 	parentAnimatedElement.addEventListener('animationend', () => {
 		handleElementAnimation(nextAnimatedElementSelector, animation);
 	});
 }
 
-function handleElementAnimation(
-	selector,
-	animation,
-	isChainAnimations = false
-) {
+function handleElementAnimation(selector, animation, isChainAnimations = false) {
 	const animatedCollection = document.querySelectorAll(selector);
 	try {
 		let animatedElement = null;
@@ -46,24 +35,12 @@ function handleElementAnimation(
 
 		switch (selector) {
 			case '.header__intro-cart':
-				nextAnimationHandler(
-					animatedElement,
-					'.intro-cart__socials-network',
-					'animate__slideInDown'
-				);
-				nextAnimationHandler(
-					animatedElement,
-					'.header__settings-icon',
-					'animate__rotateIn'
-				);
+				nextAnimationHandler(animatedElement, '.intro-cart__socials-network', 'animate__slideInDown');
+				nextAnimationHandler(animatedElement, '.header__settings-icon', 'animate__rotateIn');
 
 				break;
 			case '.menu-header__list':
-				nextAnimationHandler(
-					animatedElement,
-					'.menu-header__logo',
-					'animate__bounceIn'
-				);
+				nextAnimationHandler(animatedElement, '.menu-header__logo', 'animate__bounceIn');
 				break;
 			default:
 				break;
@@ -74,6 +51,10 @@ function handleElementAnimation(
 }
 
 export function animatePageElements() {
+	document.body.classList.remove('_lock');
+	const preloaderBlock = document.querySelector('#preloader');
+	if (preloaderBlock) preloaderBlock.style.display = 'none';
+
 	handleElementAnimation('.header__intro-cart', 'animate__backInUp', true);
 	handleElementAnimation('.menu-header__list', 'animate__backInLeft', true);
 	handleElementAnimation('.header__settings-wrapper', 'animate__backInRight');
