@@ -2128,11 +2128,6 @@ body.dark .section-title {
     gap: 0 25px;
   }
 
-  .header__settings-wrapper img {
-    -webkit-filter: brightness(900%);
-            filter: brightness(900%);
-  }
-
   .menu-header__item:not(:last-child) {
     margin-bottom: 33px;
   }
