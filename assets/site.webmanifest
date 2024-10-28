@@ -1,0 +1,21 @@
+{
+	"name": "https://howfastgot.github.io/",
+	"short_name": "portfolioHub",
+	"icons": [
+		{
+			"src": "/portfolioHub/img/icons/favicons/web-app-manifest-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/portfolioHub/img/icons/favicons/web-app-manifest-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	],
+	"theme_color": "#ac43d0",
+	"background_color": "#dd00e1",
+	"display": "standalone"
+}
