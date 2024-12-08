@@ -34,7 +34,7 @@
 
 				"codeLink": "https://github.com/HowFastGot/todo",
 				"liveDemoLink": "https://todo-ten-pi-17.vercel.app/",
-				"imgURL": "/portfolioHub/img/main/projects/todo.png"
+				"imgURL": "/portfolioHub/img/main/projects/todo.webp"
 			},
 			"ua": {
 				"title": "TODO Записник",
@@ -43,7 +43,7 @@
 
 				"codeLink": "https://github.com/HowFastGot/todo",
 				"liveDemoLink": "https://todo-ten-pi-17.vercel.app/",
-				"imgURL": "/portfolioHub/img/main/projects/todo.png"
+				"imgURL": "/portfolioHub/img/main/projects/todo.webp"
 			},
 			"ru": {
 				"title": "TODO Планер",
@@ -52,7 +52,7 @@
 
 				"codeLink": "https://github.com/HowFastGot/todo",
 				"liveDemoLink": "https://todo-ten-pi-17.vercel.app/",
-				"imgURL": "/portfolioHub/img/main/projects/todo.png"
+				"imgURL": "/portfolioHub/img/main/projects/todo.webp"
 			}
 		},
 		"5": {
@@ -114,7 +114,7 @@
 				"technologies": "<span>HTML5</span> <span>SCSS</span> <span>JavaScript</span>",
 				"codeLink": "https://github.com/HowFastGot/crypto-dashboard",
 				"liveDemoLink": "https://w7msy2-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/crypto-dashboard.png"
+				"imgURL": "/portfolioHub/img/main/projects/crypto-dashboard.webp"
 			},
 			"ua": {
 				"title": "NFT-Панель",
@@ -122,7 +122,7 @@
 				"technologies": "<span>HTML5</span> <span>SCSS</span> <span>JavaScript</span>",
 				"codeLink": "https://github.com/HowFastGot/crypto-dashboard",
 				"liveDemoLink": "https://w7msy2-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/crypto-dashboard.png"
+				"imgURL": "/portfolioHub/img/main/projects/crypto-dashboard.webp"
 			},
 			"ru": {
 				"title": "NFT-Панель",
@@ -130,7 +130,7 @@
 				"technologies": "<span>HTML5</span> <span>SCSS</span> <span>JavaScript</span>",
 				"codeLink": "https://github.com/HowFastGot/crypto-dashboard",
 				"liveDemoLink": "https://w7msy2-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/crypto-dashboard.png"
+				"imgURL": "/portfolioHub/img/main/projects/crypto-dashboard.webp"
 			}
 		},
 		"8": {
@@ -140,7 +140,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span> <span>Redux</span> <span>React Router</span> <span>Jest</span>",
 				"codeLink": "https://github.com/HowFastGot/Pizza-project",
 				"liveDemoLink": "https://r4fj2r-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/pizza.png"
+				"imgURL": "/portfolioHub/img/main/projects/pizza.webp"
 			},
 			"ua": {
 				"title": "Cafe Pizza",
@@ -148,7 +148,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span> <span>Redux</span> <span>React Router</span> <span>Jest</span>",
 				"codeLink": "https://github.com/HowFastGot/Pizza-project",
 				"liveDemoLink": "https://r4fj2r-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/pizza.png"
+				"imgURL": "/portfolioHub/img/main/projects/pizza.webp"
 			},
 			"ru": {
 				"title": "Cafe Pizza",
@@ -156,7 +156,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>ReactJS</span> <span>Redux</span> <span>React Router</span> <span>Jest</span>",
 				"codeLink": "https://github.com/HowFastGot/Pizza-project",
 				"liveDemoLink": "https://r4fj2r-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/pizza.png"
+				"imgURL": "/portfolioHub/img/main/projects/pizza.webp"
 			}
 		},
 		"9": {
@@ -166,7 +166,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>SwiperJS</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
 				"liveDemoLink": "https://zrw839-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Pictures_store.png"
+				"imgURL": "/portfolioHub/img/main/projects/Pictures_store.webp"
 			},
 			"ua": {
 				"title": "Онлайн магазин картин",
@@ -174,7 +174,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>SwiperJS</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
 				"liveDemoLink": "https://zrw839-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Pictures_store.png"
+				"imgURL": "/portfolioHub/img/main/projects/Pictures_store.webp"
 			},
 			"ru": {
 				"title": "Онлайн магазин картин",
@@ -182,7 +182,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>SwiperJS</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
 				"liveDemoLink": "https://zrw839-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Pictures_store.png"
+				"imgURL": "/portfolioHub/img/main/projects/Pictures_store.webp"
 			}
 		},
 		"10": {
@@ -192,7 +192,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>JQuery</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Irvas_service",
 				"liveDemoLink": "https://h6l6g3-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Window-shop.png"
+				"imgURL": "/portfolioHub/img/main/projects/Window-shop.webp"
 			},
 			"ua": {
 				"title": "Онлайн магазин металопластикових вікон",
@@ -200,7 +200,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>JQuery</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Irvas_service",
 				"liveDemoLink": "https://h6l6g3-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Window-shop.png"
+				"imgURL": "/portfolioHub/img/main/projects/Window-shop.webp"
 			},
 			"ru": {
 				"title": "Онлайн магазин  металопластиковых окон",
@@ -208,7 +208,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>JQuery</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Pictures_orders",
 				"liveDemoLink": "https://h6l6g3-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Window-shop.png"
+				"imgURL": "/portfolioHub/img/main/projects/Window-shop.webp"
 			}
 		},
 		"11": {
@@ -218,7 +218,7 @@
 				"technologies": "<span>SCSS</span> <span>HTML</span> <span>JavaScript</span> <span>SwiperJS</span>",
 				"codeLink": "https://github.com/HowFastGot/eCommerce_website",
 				"liveDemoLink": "https://98ngzs-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/sport-equipment.png"
+				"imgURL": "/portfolioHub/img/main/projects/sport-equipment.webp"
 			},
 			"ua": {
 				"title": "Онлайн магазин спортивного інвентаря",
@@ -226,7 +226,7 @@
 				"technologies": "<span>SCSS</span> <span>HTML</span>",
 				"codeLink": "https://github.com/HowFastGot/eCommerce_website",
 				"liveDemoLink": "https://98ngzs-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/sport-equipment.png"
+				"imgURL": "/portfolioHub/img/main/projects/sport-equipment.webp"
 			},
 			"ru": {
 				"title": "Онлайн магазин спортивного инвентаря",
@@ -234,7 +234,7 @@
 				"technologies": "<span>SCSS</span> <span>HTML</span>",
 				"codeLink": "https://github.com/HowFastGot/eCommerce_website",
 				"liveDemoLink": "https://98ngzs-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/sport-equipment.png"
+				"imgURL": "/portfolioHub/img/main/projects/sport-equipment.webp"
 			}
 		},
 		"12": {
@@ -244,7 +244,7 @@
 				"technologies": "<span>SCSS</span> <span>HTML</span>",
 				"codeLink": "https://github.com/HowFastGot/zlatmax_ecom_shop",
 				"liveDemoLink": "https://23gf59-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/zlatmax.png"
+				"imgURL": "/portfolioHub/img/main/projects/zlatmax.webp"
 			},
 			"ua": {
 				"title": "Онлайн магазин ножів",
@@ -252,7 +252,7 @@
 				"technologies": "<span>SCSS</span> <span>HTML</span>",
 				"codeLink": "https://github.com/HowFastGot/zlatmax_ecom_shop",
 				"liveDemoLink": "https://t44y3g-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/zlatmax.png"
+				"imgURL": "/portfolioHub/img/main/projects/zlatmax.webp"
 			},
 			"ru": {
 				"title": "Онлайн магазин ножей",
@@ -260,7 +260,7 @@
 				"technologies": "<span>SCSS</span> <span>HTML</span>",
 				"codeLink": "https://github.com/HowFastGot/zlatmax_ecom_shop",
 				"liveDemoLink": "https://t44y3g-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/zlatmax.png"
+				"imgURL": "/portfolioHub/img/main/projects/zlatmax.webp"
 			}
 		},
 		"13": {
@@ -270,7 +270,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>GULP</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Loan_slides",
 				"liveDemoLink": "https://pd37k7-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Loadn-slide-site.png"
+				"imgURL": "/portfolioHub/img/main/projects/Loadn-slide-site.webp"
 			},
 			"ua": {
 				"title": "IT Школа",
@@ -278,7 +278,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>GULP</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Loan_slides",
 				"liveDemoLink": "https://pd37k7-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Loadn-slide-site.png"
+				"imgURL": "/portfolioHub/img/main/projects/Loadn-slide-site.webp"
 			},
 			"ru": {
 				"title": "IT Школа",
@@ -286,7 +286,7 @@
 				"technologies": "<span>SCSS</span> <span>JavaScript</span> <span>GULP</span>",
 				"codeLink": "https://github.com/HowFastGot/website_Loan_slides",
 				"liveDemoLink": "https://pd37k7-3000.csb.app/",
-				"imgURL": "/portfolioHub/img/main/projects/Loadn-slide-site.png"
+				"imgURL": "/portfolioHub/img/main/projects/Loadn-slide-site.webp"
 			}
 		}
 	}
